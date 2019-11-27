@@ -1,30 +1,27 @@
 module.exports = {
 	siteMetadata: {
-		title: 'Gatsby Bulma Quickstart',
-		author: 'Aman Mittal',
+		title: 'Remzi Cavdar',
+		author: 'Remzi Cavdar',
 		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'A Project to bootstrap your next Gatsby + Bulma site.',
-		keywords: `Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
-		twitter: 'https://twitter.com/amanhimself',
-		github: `https://github.com/amandeepmittal`,
-		medium: 'https://medium.com/@amanhimself',
-		gatsby: 'https://www.gatsbyjs.org/',
-		bulma: 'https://bulma.io/',
-		siteUrl: `https://www.example.com`
+		description: 'My website',
+		keywords: 'Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo',
+		twitter: 'https://twitter.com/remzicavdar',
+		github: 'https://github.com/Remzi1993',
+		siteUrl: 'https://remzi.info'
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
 		{
-			resolve: `gatsby-source-filesystem`,
+			resolve: 'gatsby-source-filesystem',
 			options: {
-				name: `images`,
-				path: `${__dirname}/src/images`
+				name: 'images',
+				path: '${__dirname}/src/images'
 			}
 		},
 		'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',
 		{
-			resolve: `gatsby-plugin-manifest`,
+			resolve: 'gatsby-plugin-manifest',
 			options: {
 				name: 'Makefolio',
 				short_name: 'Makefolio',
@@ -36,10 +33,11 @@ module.exports = {
 				orientation: 'portrait'
 			}
 		},
-		`gatsby-plugin-sass`,
-		`gatsby-plugin-sitemap`,
+		'gatsby-plugin-sass',
+		'gatsby-plugin-sitemap',
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline
 		'gatsby-plugin-offline',
+		'gatsby-plugin-netlify'
 	]
 };
