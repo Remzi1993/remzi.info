@@ -22,29 +22,15 @@ const Footer = () => (
 					<article className="media center">
 						<span className="icon">
 							<a href={data.site.siteMetadata.twitter}>
-								<FaTwitter size="2em" color="blue"/>
+								<FaTwitter size="1.5em" color="blue"/>
 							</a>
 						</span>
-						&nbsp;
 						<span className="icon">
 							<a href={data.site.siteMetadata.github}>
-								<FaGithub size="2em" color="black"/>
+								<FaGithub size="1.5em" color="black"/>
 							</a>
 						</span>
-						&nbsp;
-						<span className="icon">
-							<a href={data.site.siteMetadata.medium}>
-								<FaMedium size="2em" color="green"/>
-							</a>
-						</span>
-						&nbsp;
 					</article>
-					&nbsp;
-					<p className="is-size-5">
-						You can also back or support this project for me to keep it updated
-						by{' '}
-						<a href="https://www.paypal.me/amanhimself/2">Buying Me a Coffee</a>
-					</p>
 				</div>
 			</footer>
 		)}
