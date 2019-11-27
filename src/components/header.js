@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => (
 									href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
 								>
 									<span className="icon">
-										<FaGithub size="fa-2x" />
+										<FaGithub size="2em" />
 									</span>
 									<span>Download</span>
 								</a>
