@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "https://remzi.netlify.com"
+  to = "https://remzi.info"
+  status = 301
+
+[[redirects]]
+  from = "https://www.remzi.info"
+  to = "https://remzi.info"
+  status = 301
