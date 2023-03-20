@@ -416,7 +416,7 @@ dist
 *.scss.map
 
 ### VisualStudioCode ###
-.vscode/*
+.vscode/
 
 # Local History for Visual Studio Code
 .history/
