@@ -64,7 +64,6 @@ _deps
 ### Gatsby ###
 
 .cache/
-public
 
 src/gatsby-types.d.ts
 
