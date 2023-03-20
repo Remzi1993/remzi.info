@@ -7,7 +7,7 @@
           <p>
             Zie hieronder voor mijn cv:
           </p>
-          <iframe src="src/assets/Curriculum-vitae–R.Cavdar.pdf" width="100%" height="1000px"/>
+          <iframe src="/assets/Curriculum-vitae–R.Cavdar.pdf" width="100%" height="1000px"/>
         </div>
       </div>
     </div>
