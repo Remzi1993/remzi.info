@@ -30,14 +30,13 @@
   </nav>
 </template>
 
-<script>
-
+<script lang="ts">
 export default {
   name: 'NavBar',
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .navbar-brand img {
   max-width: 30px;
 }

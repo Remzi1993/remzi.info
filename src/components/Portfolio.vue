@@ -41,12 +41,11 @@
   </main>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: "Portfolio"
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
 </style>
