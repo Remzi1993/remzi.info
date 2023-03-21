@@ -7,17 +7,9 @@
           <p>
             Ik studeer HBO-ICT Software Engineering aan de Hogeschool van Amsterdam (HvA).
             Mijn website is nog kaal, maar ik ben bezig om deze aan te vullen met mijn projecten
-            <picture>
-              <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f606/512.webp" type="image/webp">
-              <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f606/512.gif" alt="😆" width="32" height="32">
-            </picture>
+            <vue3-lottie :animationData="LaughingJSON" :height="32" :width="32"></vue3-lottie>
           </p>
-          <h2>Ik doe veel open source
-            <picture>
-              <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
-              <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32">
-            </picture>
-          </h2>
+          <h2>Ik doe veel open source <vue3-lottie :animationData="RocketJSON" :height="32" :width="32"></vue3-lottie></h2>
           <p>Ik vind het leuk om open source projecten te maken en bij te dragen aan bestaande projecten.
             Open source is voor mij een manier om mijn kennis te delen met anderen en om te leren van anderen.
             En het is ook een hobby waar je ook veel van leert.
@@ -41,11 +33,21 @@
 </template>
 
 <script lang="ts">
-import Sidebar from "./Sidebar.vue";
+import Sidebar from './Sidebar.vue'
+import {Vue3Lottie} from 'vue3-lottie'
+import 'vue3-lottie/dist/style.css'
+import RocketJSON from '../assets/img/rocket.json'
+import LaughingJSON from '../assets/img/laughing.json'
 
 export default {
-  name: "Home",
-  components: {Sidebar}
+  name: 'Home',
+  components: {Vue3Lottie, Sidebar},
+  data() {
+    return {
+      RocketJSON,
+      LaughingJSON
+    }
+  },
 }
 </script>
 

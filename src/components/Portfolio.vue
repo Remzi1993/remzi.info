@@ -3,12 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9">
-          <h1>Mijn Portfolio
-            <picture>
-              <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
-              <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32">
-            </picture>
-          </h1>
+          <h1>Mijn Portfolio <vue3-lottie :animationData="RocketJSON" :height="40" :width="40"></vue3-lottie></h1>
           <p>
             Ik heb veel projecten op GitHub staan. Alleen kan ik niet alle projecten en practica online zetten.
             Op aanvraag kan ik uiteraard wel de code laten zien en het project versturen.
@@ -48,8 +43,20 @@
 </template>
 
 <script lang="ts">
+import {Vue3Lottie} from 'vue3-lottie'
+import 'vue3-lottie/dist/style.css'
+import RocketJSON from '../assets/img/rocket.json'
+import LaughingJSON from '../assets/img/laughing.json'
+
 export default {
-  name: "Portfolio"
+  name: 'Portfolio',
+  components: {Vue3Lottie},
+  data() {
+    return {
+      RocketJSON,
+      LaughingJSON
+    }
+  },
 }
 </script>
 
