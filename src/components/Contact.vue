@@ -12,13 +12,16 @@
           </p>
           <h2>Zakelijk en portfolio</h2>
           <p>
-            <strong><i class="bi bi-linkedin"></i> LinkedIn:</strong> <a href="https://www.linkedin.com/in/remzicavdar" target="_blank">linkedin.com/in/remzicavdar</a><br>
-            <strong><i class="bi bi-github"></i> GitHub:</strong> <a href="https://github.com/Remzi1993" target="_blank">github.com/Remzi1993</a><br>
+            <strong><i class="bi bi-linkedin"></i> LinkedIn:</strong> <a href="https://www.linkedin.com/in/remzicavdar"
+                                                                         target="_blank">linkedin.com/in/remzicavdar</a><br>
+            <strong><i class="bi bi-github"></i> GitHub:</strong> <a href="https://github.com/Remzi1993"
+                                                                     target="_blank">github.com/Remzi1993</a><br>
           </p>
           <h3>Sociale media</h3>
           <p>
             Ik ben alleen soms actief op Twitter en voor de rest doe ik niks meer met sociale media.<br>
-            <strong><i class="bi bi-twitter"></i> Twitter:</strong> <a href="https://twitter.com/remzicavdar" target="_blank">@remzicavdar</a><br>
+            <strong><i class="bi bi-twitter"></i> Twitter:</strong> <a href="https://twitter.com/remzicavdar"
+                                                                       target="_blank">@remzicavdar</a><br>
           </p>
         </div>
         <sidebar></sidebar>
@@ -29,6 +32,7 @@
 
 <script lang="ts">
 import Sidebar from "./Sidebar.vue";
+
 export default {
   name: "Contact",
   components: {Sidebar}

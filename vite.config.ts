@@ -6,8 +6,7 @@ import {resolve} from 'path';
 export default defineConfig({
     resolve: {
         alias: {
-            '@': resolve(__dirname, './src'),
-            '~': resolve(__dirname, './node_modules')
+            '@': resolve(__dirname, './src/components')
         },
     },
     plugins: [vue()],

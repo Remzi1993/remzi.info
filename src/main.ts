@@ -4,10 +4,10 @@ import App from './App.vue'
 import 'bootstrap/dist/js/bootstrap.esm.min.js'
 import 'bootstrap-icons/font/bootstrap-icons.scss'
 import './style.scss'
-import Home from './components/Home.vue'
-import Resume from './components/Resume.vue'
-import Contact from './components/Contact.vue'
-import Portfolio from './components/Portfolio.vue'
+import Home from '@/Home.vue'
+import Resume from '@/Resume.vue'
+import Contact from '@/Contact.vue'
+import Portfolio from '@/Portfolio.vue'
 
 // Routes
 const routes = [

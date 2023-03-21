@@ -3,10 +3,12 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9">
-          <h1>Mijn Portfolio <picture>
-            <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
-            <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32">
-          </picture></h1>
+          <h1>Mijn Portfolio
+            <picture>
+              <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
+              <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32">
+            </picture>
+          </h1>
           <p>
             Ik heb veel projecten op GitHub staan. Alleen kan ik niet alle projecten en practica online zetten.
             Op aanvraag kan ik uiteraard wel de code laten zien en het project versturen.
@@ -34,8 +36,10 @@
       </div>
       <div class="overflow-hidden" style="max-height: 30vh;">
         <div class="container px-5">
-          <a href="/assets/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf" download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf">
-            <img src="../assets/img/cover.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+          <a href="/assets/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
+             download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf">
+            <img src="../assets/img/cover.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
+                 width="700" height="500" loading="lazy">
           </a>
         </div>
       </div>
