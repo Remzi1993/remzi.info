@@ -3,9 +3,12 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9">
-          <h1>Mijn Portfolio <vue3-lottie :animationData="RocketJSON" :height="40" :width="40"></vue3-lottie></h1>
+          <h1>Mijn Portfolio
+            <vue3-lottie :animationData="RocketJSON" :height="40" :width="40"></vue3-lottie>
+          </h1>
           <p>
-            Ik heb veel projecten op GitHub staan. Alleen kan ik niet alle projecten en practica online zetten.
+            Ik heb veel projecten op <a href="https://github.com/Remzi1993" target="_blank">GitHub</a> staan. Alleen kan
+            ik niet alle projecten en practica online zetten van de HvA vanwege het feit dat andere studenten dezelfde practica doen.
             Op aanvraag kan ik uiteraard wel de code laten zien en het project versturen.
             Hieronder zal ik mijn portfolio laten zien van projecten die ik wel online mag zetten.
           </p>

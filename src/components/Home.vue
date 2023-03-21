@@ -9,7 +9,9 @@
             Mijn website is nog kaal, maar ik ben bezig om deze aan te vullen met mijn projecten
             <vue3-lottie :animationData="LaughingJSON" :height="32" :width="32"></vue3-lottie>
           </p>
-          <h2>Ik doe veel open source <vue3-lottie :animationData="RocketJSON" :height="32" :width="32"></vue3-lottie></h2>
+          <h2>Ik doe veel open source
+            <vue3-lottie :animationData="RocketJSON" :height="32" :width="32"></vue3-lottie>
+          </h2>
           <p>Ik vind het leuk om open source projecten te maken en bij te dragen aan bestaande projecten.
             Open source is voor mij een manier om mijn kennis te delen met anderen en om te leren van anderen.
             En het is ook een hobby waar je ook veel van leert.
@@ -18,12 +20,25 @@
             Deze website is open source en je kan de code vinden op: <a href="https://github.com/Remzi1993/remzi-info"
                                                                         target="_blank">github.com/Remzi1993/remzi-info</a>
           </p>
-          <p>
+          <p class="mb-4">
             <a href="https://app.netlify.com/sites/remzi/deploys"
                target="_blank">
               <img src="https://api.netlify.com/api/v1/badges/87c06cec-b452-4239-ba57-5cc0a1277c2b/deploy-status"
                    alt="Build status of website">
             </a>
+          </p>
+          <h3>
+            <vue3-lottie :animationData="RedHeartJSON" :height="32" :width="32"></vue3-lottie>
+            Vue.js + React.js
+            <vue3-lottie :animationData="hundredJSON" :height="32" :width="32"></vue3-lottie>
+          </h3>
+          <p>
+            Ik ben nu bezig met Vue.js en deze website heb ik ook in Vue.js gemaakt. In het verleden heb ik ook
+            veel React.js gebruikt. Beide frameworks zijn erg leuk om mee te werken en hebben ook veel overeenkomsten.
+          </p>
+          <p>
+            <vue3-lottie :animationData="VueJsIconJSON" :height="100" :width="100"></vue3-lottie>
+            <vue3-lottie :animationData="ReactJsIconJSON" :height="100" :width="100"></vue3-lottie>
           </p>
         </div>
         <sidebar></sidebar>
@@ -38,6 +53,10 @@ import {Vue3Lottie} from 'vue3-lottie'
 import 'vue3-lottie/dist/style.css'
 import RocketJSON from '../assets/img/rocket.json'
 import LaughingJSON from '../assets/img/laughing.json'
+import RedHeartJSON from '../assets/img/red-heart.json'
+import VueJsIconJSON from '../assets/img/vuejs-icon.json'
+import ReactJsIconJSON from '../assets/img/reactjs-icon.json'
+import hundredJSON from '../assets/img/100.json'
 
 export default {
   name: 'Home',
@@ -45,7 +64,11 @@ export default {
   data() {
     return {
       RocketJSON,
-      LaughingJSON
+      LaughingJSON,
+      RedHeartJSON,
+      VueJsIconJSON,
+      ReactJsIconJSON,
+      hundredJSON
     }
   },
 }
