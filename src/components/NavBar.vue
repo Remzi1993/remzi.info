@@ -12,18 +12,25 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <router-link class="nav-link active" to="/">Home</router-link>
+            <router-link class="nav-link active" to="/">
+              <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Home</span>
+            </router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link active" to="/portfolio">Portfolio</router-link>
+            <router-link class="nav-link active" to="/portfolio">
+              <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Portfolio</span>
+            </router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link active" to="/cv">CV</router-link>
+            <router-link class="nav-link active" to="/cv">
+              <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">CV</span>
+            </router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link active" to="/contact">Contact</router-link>
+            <router-link class="nav-link active" to="/contact">
+              <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Contact</span>
+            </router-link>
           </li>
-
         </ul>
       </div>
     </div>
