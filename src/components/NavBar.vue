@@ -12,24 +12,28 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <router-link class="nav-link active" to="/">
+            <router-link class="nav-link d-lg-none" to="/">
               <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Home</span>
             </router-link>
+            <router-link class="nav-link d-none d-lg-block" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link active" to="/portfolio">
+            <router-link class="nav-link d-lg-none" to="/portfolio">
               <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Portfolio</span>
             </router-link>
+            <router-link class="nav-link d-none d-lg-block" to="/portfolio">Portfolio</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link active" to="/cv">
+            <router-link class="nav-link d-lg-none" to="/cv">
               <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">CV</span>
             </router-link>
+            <router-link class="nav-link d-none d-lg-block" to="/cv">CV</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link active" to="/contact">
+            <router-link class="nav-link d-lg-none" to="/contact">
               <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Contact</span>
             </router-link>
+            <router-link class="nav-link d-none d-lg-block" to="/contact">Contact</router-link>
           </li>
         </ul>
       </div>
