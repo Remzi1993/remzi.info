@@ -18,7 +18,7 @@
             <router-link class="nav-link active" to="/portfolio">Portfolio</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link active" to="/cv">Resume</router-link>
+            <router-link class="nav-link active" to="/cv">CV</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link active" to="/contact">Contact</router-link>
