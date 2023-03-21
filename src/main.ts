@@ -13,7 +13,7 @@ import Portfolio from './components/Portfolio.vue'
 const routes = [
     {path: '/', name: 'Home', component: Home},
     {path: '/portfolio', name: 'Portfolio', component: Portfolio},
-    {path: '/resume', name: 'Resume', component: Resume},
+    {path: '/cv', name: 'Resume', component: Resume},
     {path: '/contact', name: 'Contact', component: Contact},
 ]
 
