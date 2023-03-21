@@ -27,18 +27,24 @@
                                                                        target="_blank">@remzicavdar</a><br>
           </p>
         </div>
-        <sidebar></sidebar>
+        <div class="col-xl-4">
+          <h2>Mijn portfolio</h2>
+          <p>
+            <router-link class="btn btn-primary" to="/portfolio">Portfolio</router-link>
+          </p>
+          <p>
+            <a class="btn btn-primary" href="/assets/Curriculum-vitae–R.Cavdar.pdf"
+               role="button" download="Curriculum-vitae–R.Cavdar.pdf">Download cv</a>
+          </p>
+        </div>
       </div>
     </div>
   </main>
 </template>
 
 <script lang="ts">
-import Sidebar from "./Sidebar.vue";
-
 export default {
-  name: "Contact",
-  components: {Sidebar}
+  name: "Contact"
 }
 </script>
 
