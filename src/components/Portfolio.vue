@@ -8,7 +8,8 @@
           </h1>
           <p>
             Ik heb veel projecten op <a href="https://github.com/Remzi1993" target="_blank">GitHub</a> staan. Alleen kan
-            ik niet alle projecten en practica online zetten van de HvA vanwege het feit dat andere studenten dezelfde practica doen.
+            ik niet alle projecten en practica online zetten van de HvA vanwege het feit dat andere studenten dezelfde
+            practica doen.
             Op aanvraag kan ik uiteraard wel de code laten zien en het project versturen.
             Hieronder zal ik mijn portfolio laten zien van projecten die ik wel online mag zetten.
           </p>
@@ -36,8 +37,8 @@
         <div class="container px-5">
           <a href="/assets/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
              download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf">
-            <img src="../assets/img/cover.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
-                 width="700" height="500" loading="lazy">
+            <img src="../assets/img/cover.png" class="img-fluid border rounded-3 shadow-lg mb-4 cover-image"
+                 alt="Cover image of the research report" loading="lazy">
           </a>
         </div>
       </div>
@@ -64,4 +65,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.cover-image {
+  width: 700px;
+}
 </style>
