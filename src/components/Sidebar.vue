@@ -8,6 +8,12 @@
       <a class="btn btn-primary" href="/assets/Curriculum-vitae–R.Cavdar.pdf"
          role="button" download="Curriculum-vitae–R.Cavdar.pdf">Download cv</a>
     </p>
+
+    <h3>Contact</h3>
+    <strong><i class="bi bi-phone"></i> Mobiel:</strong> <a href="tel:+31611719929">06 117 199 29</a><br>
+    <strong><i class="bi bi-envelope-at"></i> E-mail:</strong> <a href="mailto:ict@remzi.info">ict@remzi.info</a><br>
+    <strong><i class="bi bi-github"></i> GitHub:</strong> <a href="https://github.com/Remzi1993"
+                                                             target="_blank">github.com/Remzi1993</a><br>
   </div>
 </template>
 

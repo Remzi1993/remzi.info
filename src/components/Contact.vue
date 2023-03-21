@@ -8,7 +8,10 @@
             <strong><i class="bi bi-person"></i> Naam:</strong> Remzi Cavdar<br>
             <strong><i class="bi bi-house"></i> Woonplaats:</strong> Amsterdam<br>
             <strong><i class="bi bi-telephone"></i> Telefoon:</strong> <a href="tel:+31611719929">06 117 199 29</a><br>
-            <strong><i class="bi bi-envelope-at"></i> Email:</strong> <a href="mailto:ict@remzi.info">ict@remzi.info</a><br>
+            <strong><i class="bi bi-envelope-at"></i> E-mail:</strong> <a
+              href="mailto:ict@remzi.info">ict@remzi.info</a><br>
+            <strong><i class="bi bi-envelope-at"></i> E-mail HvA:</strong> <a
+              href="mailto:remzi.cavdar@hva.nl">remzi.cavdar@hva.nl</a><br>
           </p>
           <h2>Zakelijk en portfolio</h2>
           <p>
