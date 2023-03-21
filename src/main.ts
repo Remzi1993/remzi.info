@@ -4,6 +4,9 @@ import App from './App.vue'
 import 'bootstrap/dist/js/bootstrap.esm.min.js'
 import 'bootstrap-icons/font/bootstrap-icons.scss'
 import './style.scss'
+import Vue3Lottie from 'vue3-lottie'
+import 'vue3-lottie/dist/style.css'
+
 import Home from '@/Home.vue'
 import Resume from '@/Resume.vue'
 import Contact from '@/Contact.vue'
@@ -24,4 +27,5 @@ const router = createRouter({
 
 createApp(App)
     .use(router)
+    .use(Vue3Lottie, { name: 'LottieAnimation' })
     .mount('#app')

@@ -44,7 +44,7 @@
 
 <script lang="ts">
 export default {
-  name: "Contact"
+  name: 'Contact'
 }
 </script>
 
