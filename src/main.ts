@@ -6,7 +6,6 @@ import 'bootstrap-icons/font/bootstrap-icons.scss'
 import './style.scss'
 import Vue3Lottie from 'vue3-lottie'
 import 'vue3-lottie/dist/style.css'
-
 import Home from '@/Home.vue'
 import Resume from '@/Resume.vue'
 import Contact from '@/Contact.vue'
