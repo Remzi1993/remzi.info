@@ -4,6 +4,11 @@ to = "/cv"
 status = 301
 
 [[redirects]]
+from = "/cv.html"
+to = "/cv"
+status = 301
+
+[[redirects]]
 from = "/*"
 to = "/index.html"
 status = 200
