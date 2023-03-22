@@ -10,6 +10,7 @@ import Home from '@/Home.vue'
 import Resume from '@/Resume.vue'
 import Contact from '@/Contact.vue'
 import Portfolio from '@/Portfolio.vue'
+import NotFound from "@/NotFound.vue";
 
 // Routes
 const routes = [
@@ -17,6 +18,7 @@ const routes = [
     {path: '/portfolio', name: 'Portfolio', component: Portfolio},
     {path: '/cv', name: 'Resume', component: Resume},
     {path: '/contact', name: 'Contact', component: Contact},
+    {path: '/:pathMatch(.*)', component: NotFound}
 ]
 
 const router = createRouter({
