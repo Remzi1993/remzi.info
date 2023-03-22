@@ -24,7 +24,7 @@
   </main>
 </template>
 
-<script>
+<script lang="ts">
 import {Vue3Lottie} from 'vue3-lottie'
 import 'vue3-lottie/dist/style.css'
 import DizzyFaceJSON from '../assets/img/dizzy-face.json'
