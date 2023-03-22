@@ -14,6 +14,6 @@ export default defineConfig({
     plugins: [
         vue(),
         VitePWA({registerType: 'autoUpdate'}),
-        viteCompression({ verbose: false, threshold: 100, algorithm: 'brotliCompress', deleteOriginFile: true }),
+        viteCompression({ verbose: false, threshold: 100, algorithm: 'brotliCompress', deleteOriginFile: false }),
     ],
 })
