@@ -1,4 +1,9 @@
 [[redirects]]
+from = "/assets/cv.pdf"
+to = "/cv"
+status = 301
+
+[[redirects]]
 from = "/*"
 to = "/index.html"
 status = 200
