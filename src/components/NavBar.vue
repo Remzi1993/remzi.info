@@ -10,7 +10,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="main-menu-navbar">
-        <ul class="navbar-nav me-auto my-2 mb-lg-0">
+        <ul class="navbar-nav me-auto my-2 my-lg-0">
           <li class="nav-item">
             <router-link class="nav-link d-lg-none" to="/">
               <span data-bs-toggle="collapse" data-bs-target="#main-menu-navbar">Home</span>
