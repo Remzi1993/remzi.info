@@ -56,7 +56,7 @@ force = true
 # 404
 [[redirects]]
 from = "/*"
-to = "/404"
+to = "/index.html"
 status = 404
 
 # Netlify build proceeds only if there are changes within the src directory
