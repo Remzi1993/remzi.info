@@ -19,11 +19,13 @@ const routes = [
     {path: '/portfolio', component: Portfolio},
     {path: '/cv', component: Resume},
     {path: '/contact', component: Contact},
+    {path: '/assets'},
     {path: '/:pathMatch(.*)', component: NotFound}
 ]
 
 const router = createRouter({
     history: createWebHistory(),
+    // @ts-ignore
     routes,
     scrollBehavior() {
         // always scroll to top
