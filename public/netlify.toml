@@ -24,6 +24,11 @@ from = "/index.php"
 to = "/"
 status = 301
 
+[[redirects]]
+from = "/favicon.ico"
+to = "/assets/img/logo.png"
+status = 301
+
 # Pages
 [[redirects]]
 from = "/"
