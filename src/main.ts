@@ -19,7 +19,7 @@ const routes = [
     {path: '/portfolio', component: Portfolio},
     {path: '/cv', component: Resume},
     {path: '/contact', component: Contact},
-    {path: '/:pathMatch((?!^\\/?assets\\/?.*$)(^.*$))', component: NotFound}
+    {path: '/(?!^\\/?assets\\/?.*$)(^.*$)', component: NotFound}
 ]
 
 const router = createRouter({
