@@ -74,4 +74,4 @@ status = 404
 
 # Netlify build proceeds only if there are changes within the src directory
 [build]
-ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF . ../src/"
+ignore = "git diff --quiet $COMMIT_REF $CACHED_COMMIT_REF -- src/"
