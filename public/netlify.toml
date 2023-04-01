@@ -16,12 +16,12 @@ status = 301
 
 [[redirects]]
 from = "/index.html"
-to = "/"
+to = "/index.html"
 status = 301
 
 [[redirects]]
 from = "/index.php"
-to = "/"
+to = "/index.html"
 status = 301
 
 # Pages
@@ -47,8 +47,8 @@ status = 200
 
 # Public assets directory
 [[redirects]]
-from = "/assets/*"
-to = "/assets/:splat"
+from = "/assets/Curriculum-vitae–R.Cavdar.pdf"
+to = "/assets/Curriculum-vitae–R.Cavdar.pdf"
 status = 200
 
 # 404
