@@ -27,9 +27,9 @@
 <script lang="ts">
 import {Vue3Lottie} from 'vue3-lottie'
 import 'vue3-lottie/dist/style.css'
-import DizzyFaceJSON from '../assets/img/dizzy-face.json'
-import GrinSweatJSON from '../assets/img/grin-sweat.json'
-import ZanyFaceJSON from '../assets/img/zany-face.json'
+import DizzyFaceJSON from '../assets/emoji/dizzy-face.json'
+import GrinSweatJSON from '../assets/emoji/grin-sweat.json'
+import ZanyFaceJSON from '../assets/emoji/zany-face.json'
 
 export default {
   name: 'NotFound',

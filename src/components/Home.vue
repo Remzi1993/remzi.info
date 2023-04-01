@@ -51,12 +51,12 @@
 import Sidebar from './Sidebar.vue'
 import {Vue3Lottie} from 'vue3-lottie'
 import 'vue3-lottie/dist/style.css'
-import RocketJSON from '../assets/img/rocket.json'
-import LaughingJSON from '../assets/img/laughing.json'
-import RedHeartJSON from '../assets/img/red-heart.json'
-import VueJsIconJSON from '../assets/img/vuejs-icon.json'
-import ReactJsIconJSON from '../assets/img/reactjs-icon.json'
-import hundredJSON from '../assets/img/100.json'
+import RocketJSON from '../assets/emoji/rocket.json'
+import LaughingJSON from '../assets/emoji/laughing.json'
+import RedHeartJSON from '../assets/emoji/red-heart.json'
+import VueJsIconJSON from '../assets/emoji/vuejs-icon.json'
+import ReactJsIconJSON from '../assets/emoji/reactjs-icon.json'
+import hundredJSON from '../assets/emoji/100.json'
 
 export default {
   name: 'Home',

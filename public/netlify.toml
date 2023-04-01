@@ -16,12 +16,12 @@ status = 301
 
 [[redirects]]
 from = "/index.html"
-to = "/index.html"
+to = "/"
 status = 301
 
 [[redirects]]
 from = "/index.php"
-to = "/index.html"
+to = "/"
 status = 301
 
 # Pages
@@ -51,8 +51,27 @@ from = "/assets/Curriculum-vitae–R.Cavdar.pdf"
 to = "/assets/Curriculum-vitae–R.Cavdar.pdf"
 status = 200
 
+[[redirects]]
+from = "/assets/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
+to = "/assets/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
+status = 200
+
+[[redirects]]
+from = "/assets/img/cover.png"
+to = "/assets/img/cover.png"
+status = 200
+
+[[redirects]]
+from = "/assets/img/logo.png"
+to = "/assets/img/logo.png"
+status = 200
+
 # 404
 [[redirects]]
 from = "/*"
 to = "/index.html"
 status = 404
+
+# Netlify build proceeds only if there are changes within the src directory
+[build]
+ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF . ../src/"

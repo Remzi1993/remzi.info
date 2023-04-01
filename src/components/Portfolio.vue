@@ -37,7 +37,7 @@
         <div class="container px-5">
           <a href="/assets/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
              download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf">
-            <img src="../assets/img/cover.png" class="img-fluid border rounded-3 shadow-lg mb-4 cover-image"
+            <img src="../../public/assets/img/cover.png" class="img-fluid border rounded-3 shadow-lg mb-4 cover-image"
                  alt="Cover image of the research report" loading="lazy">
           </a>
         </div>
@@ -49,8 +49,8 @@
 <script lang="ts">
 import {Vue3Lottie} from 'vue3-lottie'
 import 'vue3-lottie/dist/style.css'
-import RocketJSON from '../assets/img/rocket.json'
-import LaughingJSON from '../assets/img/laughing.json'
+import RocketJSON from '../assets/emoji/rocket.json'
+import LaughingJSON from '../assets/emoji/laughing.json'
 
 export default {
   name: 'Portfolio',
