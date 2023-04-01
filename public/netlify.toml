@@ -46,31 +46,11 @@ to = "/index.html"
 status = 200
 
 # Public assets directory
-#[[redirects]]
-#from = "/assets/Curriculum-vitae–R.Cavdar.pdf"
-#to = "/assets/Curriculum-vitae–R.Cavdar.pdf"
-#status = 200
-#
-#[[redirects]]
-#from = "/assets/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
-#to = "/assets/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
-#status = 200
-#
-#[[redirects]]
-#from = "/assets/img/cover.png"
-#to = "/assets/img/cover.png"
-#status = 200
-#
-#[[redirects]]
-#from = "/assets/img/logo.png"
-#to = "/assets/img/logo.png"
-#status = 200
-
 [[redirects]]
 from = "/assets/*"
 to = "/assets/:splat"
 status = 200
-force = true
+#force = true
 
 # 404
 [[redirects]]
