@@ -15,11 +15,6 @@ to = "/contact"
 status = 301
 
 [[redirects]]
-from = "/index.html"
-to = "/"
-status = 301
-
-[[redirects]]
 from = "/index.php"
 to = "/"
 status = 301

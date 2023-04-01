@@ -14,23 +14,24 @@ import NotFound from "@/NotFound.vue";
 
 // Routes
 const routes = [
-    {path: '/', name: 'Home', component: Home},
-    {path: '/portfolio', name: 'Portfolio', component: Portfolio},
-    {path: '/cv', name: 'Resume', component: Resume},
-    {path: '/contact', name: 'Contact', component: Contact},
+    {path: '/index.html', redirect: '/'},
+    {path: '/', component: Home},
+    {path: '/portfolio', component: Portfolio},
+    {path: '/cv', component: Resume},
+    {path: '/contact', component: Contact},
     {path: '/:pathMatch(.*)', component: NotFound}
 ]
 
 const router = createRouter({
     history: createWebHistory(),
     routes,
-    scrollBehavior(){
+    scrollBehavior() {
         // always scroll to top
-        return { top: 0 }
+        return {top: 0}
     },
 })
 
 createApp(App)
     .use(router)
-    .use(Vue3Lottie, { name: 'LottieAnimation' })
+    .use(Vue3Lottie, {name: 'LottieAnimation'})
     .mount('#app')
