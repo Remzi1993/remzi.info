@@ -45,12 +45,17 @@ from = "/contact"
 to = "/index.html"
 status = 200
 
+# Public assets directory listing
+[[redirects]]
+from = "/assets"
+to = "/index.html"
+status = 200
+
 # Public assets directory
 [[redirects]]
 from = "/assets/*"
 to = "/assets/:splat"
 status = 200
-#force = true
 
 # 404
 [[redirects]]
