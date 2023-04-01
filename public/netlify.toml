@@ -19,6 +19,7 @@ from = "/index.php"
 to = "/"
 status = 301
 
+# Default favicon redirect
 [[redirects]]
 from = "/favicon.ico"
 to = "/assets/img/logo.png"
@@ -42,12 +43,6 @@ status = 200
 
 [[redirects]]
 from = "/contact"
-to = "/index.html"
-status = 200
-
-# Public assets directory listing
-[[redirects]]
-from = "/assets"
 to = "/index.html"
 status = 200
 

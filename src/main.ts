@@ -11,7 +11,6 @@ import Resume from '@/Resume.vue'
 import Contact from '@/Contact.vue'
 import Portfolio from '@/Portfolio.vue'
 import NotFound from '@/NotFound.vue'
-import AssetsDirListing from '@/AssetsDirListing.vue'
 
 // Routes
 const routes = [
@@ -20,7 +19,6 @@ const routes = [
     {path: '/portfolio', component: Portfolio},
     {path: '/cv', component: Resume},
     {path: '/contact', component: Contact},
-    {path: '/assets', component: AssetsDirListing},
     {path: '/:pathMatch(.*)', component: NotFound}
 ]
 
