@@ -51,6 +51,7 @@ status = 200
 from = "/assets/*"
 to = "/assets/:splat"
 status = 200
+force = true
 
 # 404
 [[redirects]]
