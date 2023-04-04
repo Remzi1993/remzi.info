@@ -8,7 +8,7 @@
             Zie hieronder voor mijn cv:
           </p>
           <p>
-            <a class="btn btn-primary" href="/assets/Curriculum-vitae–R.Cavdar.pdf"
+            <a class="btn btn-primary" href="/assets/Curriculum-vitae-R.Cavdar.pdf"
                role="button" download="Curriculum-vitae–R.Cavdar.pdf">Download cv</a>
           </p>
           <iframe src="https://drive.google.com/file/d/1CtoVZyNiREiyMsEooOieeZx_9M_UKPr2/preview" width="100%"
