@@ -19,6 +19,11 @@ from = "/index.php"
 to = "/"
 status = 301
 
+[[redirects]]
+from = "/assets/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
+to = "https://assets.remzi.info/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
+status = 301
+
 # Default favicon redirect
 [[redirects]]
 from = "/favicon.ico"
