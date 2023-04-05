@@ -22,7 +22,7 @@ status = 301
 # Default favicon redirect
 [[redirects]]
 from = "/favicon.ico"
-to = "/assets/img/logo.png"
+to = "https://assets.remzi.info/img/logo.png"
 status = 301
 
 # Pages
@@ -46,19 +46,8 @@ from = "/contact"
 to = "/index.html"
 status = 200
 
-# Public assets directory
-[[redirects]]
-from = "/assets/*"
-to = "/assets/:splat"
-status = 200
-force = true
-
 # 404
-#[[redirects]]
-#from = "/*"
-#to = "/index.html"
-#status = 404
-
-# Netlify build proceeds only if there are changes within the src directory
-[build]
-ignore = "git diff --quiet $COMMIT_REF $CACHED_COMMIT_REF -- src/"
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 404
