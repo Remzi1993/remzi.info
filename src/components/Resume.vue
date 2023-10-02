@@ -21,6 +21,6 @@
 
 <script lang="ts">
 export default {
-  name: "Resume"
+  name: 'Resume'
 }
 </script>

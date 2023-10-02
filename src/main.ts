@@ -1,11 +1,9 @@
 import {createApp} from 'vue'
 import {createRouter, createWebHistory} from 'vue-router'
-import App from './App.vue'
-import 'bootstrap/dist/js/bootstrap.esm.min.js'
+import BootstrapPlugin from './bootstrap-plugin.ts'
 import 'bootstrap-icons/font/bootstrap-icons.scss'
-import './style.scss'
-import Vue3Lottie from 'vue3-lottie'
-import 'vue3-lottie/dist/style.css'
+import './main.scss'
+import App from './App.vue'
 import Home from '@/Home.vue'
 import Resume from '@/Resume.vue'
 import Contact from '@/Contact.vue'
@@ -33,5 +31,5 @@ const router = createRouter({
 
 createApp(App)
     .use(router)
-    .use(Vue3Lottie, {name: 'LottieAnimation'})
+    .use(BootstrapPlugin)
     .mount('#app')

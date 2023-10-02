@@ -1,5 +1,5 @@
 # My personal website
-This is my personal website, built with Vue 3 and TypeScript.
+This is my personal website, built with Vite, Vue 3 and TypeScript.
 
 ## Open source
 My website is open source, and you can find it on [GitHub](https://github.com/Remzi1993/remzi-info)

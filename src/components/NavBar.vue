@@ -43,7 +43,7 @@
 
 <script lang="ts">
 export default {
-  name: 'NavBar',
+  name: 'NavBar'
 }
 </script>
 

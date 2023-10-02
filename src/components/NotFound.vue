@@ -6,10 +6,16 @@
           <div class="d-flex align-items-center justify-content-center pt-xl-5">
             <div class="d-flex flex-column align-items-center text-center">
               <h1 class="display-1 fw-bold">Pagina niet gevonden
-                <vue3-lottie :animationData="DizzyFaceJSON" :height="90" :width="90"></vue3-lottie>
+                <picture>
+                  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f635_200d_1f4ab/512.webp" type="image/webp">
+                  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f635_200d_1f4ab/512.gif" alt="😵" width="32" height="32">
+                </picture>
               </h1>
               <p class="fs-3"><span class="text-danger">Oepsie!</span> Pagina is nergens te bekennen
-                <vue3-lottie :animationData="GrinSweatJSON" :height="40" :width="40"></vue3-lottie>
+                <picture>
+                  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f605/512.webp" type="image/webp">
+                  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f605/512.gif" alt="😅" width="32" height="32">
+                </picture>
               </p>
               <p class="lead d-flex justify-content-center">
                 Mischien is het een tijdelijke storing, of is de pagina verplaatst. Altijd een goed idee om terug naar
@@ -25,22 +31,8 @@
 </template>
 
 <script lang="ts">
-import {Vue3Lottie} from 'vue3-lottie'
-import 'vue3-lottie/dist/style.css'
-import DizzyFaceJSON from '../assets/emoji/dizzy-face.json'
-import GrinSweatJSON from '../assets/emoji/grin-sweat.json'
-import ZanyFaceJSON from '../assets/emoji/zany-face.json'
-
 export default {
-  name: 'NotFound',
-  components: {Vue3Lottie},
-  data() {
-    return {
-      DizzyFaceJSON,
-      GrinSweatJSON,
-      ZanyFaceJSON
-    }
-  },
+  name: 'NotFound'
 }
 </script>
 

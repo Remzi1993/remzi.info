@@ -4,7 +4,10 @@
       <div class="row">
         <div class="col-xl-9">
           <h1>Mijn Portfolio
-            <vue3-lottie :animationData="RocketJSON" :height="40" :width="40"></vue3-lottie>
+            <picture>
+              <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
+              <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32">
+            </picture>
           </h1>
           <p>
             Ik heb veel projecten op <a href="https://github.com/Remzi1993" target="_blank">GitHub</a> staan. Alleen kan
@@ -47,20 +50,8 @@
 </template>
 
 <script lang="ts">
-import {Vue3Lottie} from 'vue3-lottie'
-import 'vue3-lottie/dist/style.css'
-import RocketJSON from '../assets/emoji/rocket.json'
-import LaughingJSON from '../assets/emoji/laughing.json'
-
 export default {
-  name: 'Portfolio',
-  components: {Vue3Lottie},
-  data() {
-    return {
-      RocketJSON,
-      LaughingJSON
-    }
-  },
+  name: 'Portfolio'
 }
 </script>
 
