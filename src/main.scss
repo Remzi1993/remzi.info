@@ -1,6 +1,6 @@
 @import "bootstrap/scss/bootstrap.scss";
 
-$yellow : #FFD933;
+$yellow: #FFD933;
 $red: #FC4442;
 
 .navbar {
@@ -17,4 +17,35 @@ hr {
 
 .red {
   color: $red;
+}
+
+.skill-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+
+  span {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+}
+
+.rating {
+  display: flex;
+  direction: rtl;
+  justify-content: center;
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label {
+  color: #555;
+  padding: 0 5px;
+}
+
+.rating > input:checked ~ label {
+  color: #FFD700; /* Yellow star color for selected and hover */
 }
