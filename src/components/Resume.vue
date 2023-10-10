@@ -1,18 +1,93 @@
 <template>
   <main class="py-4">
     <div class="container">
-      <div class="row">
+      <div class="row d-print-none">
         <div class="col">
           <h1>Mijn cv <i class="bi bi-file-earmark-person-fill"></i></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="../assets/img/profile-photo.jpg" alt="Remzi Cavdar" class="mb-3">
           <p>
-            Zie hieronder voor mijn cv:
+            <strong><i class="bi bi-phone"></i> Mobiel:</strong> <a href="tel:+31611719929">06 117 199 29</a><br>
+            <strong><i class="bi bi-envelope-at"></i> E-mail:</strong> <a
+              href="mailto:ict@remzi.info">ict@remzi.info</a><br>
+            <strong><i class="bi bi-house"></i> Woonplaats:</strong> Amsterdam<br>
           </p>
-          <p>
-            <a class="btn btn-primary" href="https://assets.remzi.info/Curriculum-vitae-R.Cavdar.pdf"
-               role="button" download="Curriculum-vitae–R.Cavdar.pdf">Download cv</a>
-          </p>
-          <iframe src="https://drive.google.com/file/d/1CtoVZyNiREiyMsEooOieeZx_9M_UKPr2/preview" width="100%"
-                  height="1000px" allow="autoplay"></iframe>
+          <h4 class="red">Skills</h4>
+          <div class="skill-rating">
+            <span>Web Dev</span>
+            <div class="rating">
+              <input type="radio" name="skill-1" id="skill-1-star5"><label for="skill-1-star5" title="5 stars">★</label>
+              <input type="radio" name="skill-1" id="skill-1-star4" checked><label for="skill-1-star4" title="4 stars">★</label>
+              <input type="radio" name="skill-1" id="skill-1-star3"><label for="skill-1-star3" title="3 stars">★</label>
+              <input type="radio" name="skill-1" id="skill-1-star2"><label for="skill-1-star2" title="2 stars">★</label>
+              <input type="radio" name="skill-1" id="skill-1-star1"><label for="skill-1-star1" title="1 star">★</label>
+            </div>
+          </div>
+          <div class="skill-rating">
+            <span>Java</span>
+            <div class="rating">
+              <input type="radio" name="skill-2" id="skill-2-star5"><label for="skill-2-star5" title="5 stars">★</label>
+              <input type="radio" name="skill-2" id="skill-2-star4"><label for="skill-2-star4" title="4 stars">★</label>
+              <input type="radio" name="skill-2" id="skill-2-star3" checked><label for="skill-2-star3" title="3 stars">★</label>
+              <input type="radio" name="skill-2" id="skill-2-star2"><label for="skill-2-star2" title="2 stars">★</label>
+              <input type="radio" name="skill-2" id="skill-2-star1"><label for="skill-2-star1" title="1 star">★</label>
+            </div>
+          </div>
+          <div class="skill-rating">
+            <span>React & Vue.js</span>
+            <div class="rating">
+              <input type="radio" name="skill-3" id="skill-3-star5"><label for="skill-3-star5" title="5 stars">★</label>
+              <input type="radio" name="skill-3" id="skill-3-star4"><label for="skill-3-star4" title="4 stars">★</label>
+              <input type="radio" name="skill-3" id="skill-3-star3" checked><label for="skill-3-star3" title="3 stars">★</label>
+              <input type="radio" name="skill-3" id="skill-3-star2"><label for="skill-3-star2" title="2 stars">★</label>
+              <input type="radio" name="skill-3" id="skill-3-star1"><label for="skill-3-star1" title="1 star">★</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <h2 class="text-center">Remzi Cavdar</h2>
+          <h3 class="text-center yellow">Software Engineer</h3>
+          <hr/>
+          <h4 class="red">Werkervaring</h4>
+          <h5>Lead Me - Direct Leads - 02/2019 - 09/2019</h5>
+          <h6>Web Developer / WordPress Developer / Systeembeheerde</h6>
+          <ul>
+            <li>Hosting / servers beheren (backups, instellingen, optimaliseren en kwaliteit bewaken)</li>
+            <li>Websites onderhouden, bijwerken (updaten) en testen voordat er (grote) aanpassingen worden doorgevoerd
+            </li>
+            <li>Bugs oplossen</li>
+          </ul>
+          <h5>PREMIUMS / Advanza / Advanza Direct - 02/2018 - 02/2019</h5>
+          <h6>Web Developer / WordPress Developer / Systeembeheerder</h6>
+          <ul>
+            <li>Binnen Advanza Direct: de hosting / servers beheren (backups, instellingen, optimaliseren en kwaliteit
+              bewaken)
+            </li>
+            <li>Binnen Advanza Direct: koppeling met WordPress met de Advanza backend, via WordPress plugin</li>
+            <li>Verantwoordelijk binnen Advanza Direct voor alle online formulieren</li>
+            <li>Binnen Advanza Direct: websites onderhouden en bijwerken</li>
+            <li>Binnen Advanza Direct: oplossen van problemen / bugs (fouten in WordPress plugins en thema’s)</li>
+            <li>Soms voor Premiums tussendoor IT problemen oplossen</li>
+            <li>Soms voor Advanza IT problemen oplossen</li>
+          </ul>
+          <h5>Remzi.info / Freelance - 06/2012 - 07/2015</h5>
+          <h6>Full Stack Web Developer</h6>
+          <ul>
+            <li>Websites ontwikkelen (kleine / middelgrote projecten)</li>
+            <li>Technisch advies: cliënten adviseren over verschillende ICT-vraagstukken.</li>
+            <li>Webhosting verzorgen voor cliënten</li>
+            <li>Web Apps ontwikkelen</li>
+            <li>Ervaring Webhosting panels: cPanel en DirectAdmin en CMS: WordPress en Magento</li>
+          </ul>
+          <hr/>
+          <h4 class="red">Opleiding</h4>
+          <h5>Hogeschool van Amsterdam - 09/2021 - heden</h5>
+          <h6>HBO-ICT Software Engineering</h6>
+          <h5>ROC TOP - 09/2011 - 09/2014</h5>
+          <h6>MBO niveau 4 / Applicatie- en mediaontwikkeling</h6>
         </div>
       </div>
     </div>
@@ -24,3 +99,44 @@ export default {
   name: 'Resume'
 }
 </script>
+
+<style lang="scss" scoped>
+img {
+  width: 100%;
+}
+
+.skill-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+
+  span {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+}
+
+.rating {
+  display: flex;
+  direction: rtl; /* This will make the stars order from left to right */
+  font-size: 1.5em; /* Adjusting the size a bit */
+  justify-content: center;
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label {
+  color: #555; /* Default star color for dark mode */
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.rating > input:checked ~ label,
+.rating > label:hover,
+.rating > label:hover ~ label {
+  color: #FFD700; /* Yellow star color for selected and hover */
+}
+</style>

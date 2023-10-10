@@ -2,13 +2,8 @@
   <main class="py-4">
     <div class="container">
       <div class="row">
-        <div class="col-xl-9">
-          <h1>Mijn Portfolio
-            <picture>
-              <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
-              <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32">
-            </picture>
-          </h1>
+        <div class="col-xl-8">
+          <h1>Mijn Portfolio <img src="../assets/img/emoji/rocket.webp" alt="🚀" width="50" height="50"></h1>
           <p>
             Ik heb veel projecten op <a href="https://github.com/Remzi1993" target="_blank">GitHub</a> staan. Alleen kan
             ik niet alle projecten en practica online zetten van de HvA vanwege het feit dat andere studenten dezelfde
@@ -50,8 +45,11 @@
 </template>
 
 <script lang="ts">
+import Sidebar from '@/Sidebar.vue'
+
 export default {
-  name: 'Portfolio'
+  name: 'Portfolio',
+  components: {Sidebar}
 }
 </script>
 

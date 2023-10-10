@@ -1,1 +1,20 @@
 @import "bootstrap/scss/bootstrap.scss";
+
+$yellow : #FFD933;
+$red: #FC4442;
+
+.navbar {
+  --bs-navbar-color: #FFD933;
+}
+
+hr {
+  border: 2px solid white;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.red {
+  color: $red;
+}

@@ -1,6 +1,23 @@
 <template>
-  <div class="col-xl-4">
-    <h2>Mijn portfolio</h2>
+  <div class="col-xl-3 ms-auto">
+    <h2>Mijn visitekaartje <i class="bi bi-person-lines-fill"></i></h2>
+    <p>
+      <strong><i class="bi bi-person"></i> Naam:</strong> Remzi Cavdar<br>
+      <strong><i class="bi bi-house"></i> Woonplaats:</strong> Amsterdam<br>
+      <strong><i class="bi bi-phone"></i> Mobiel:</strong> <a href="tel:+31611719929">06 117 199 29</a><br>
+      <strong><i class="bi bi-envelope-at"></i> E-mail:</strong> <a
+        href="mailto:ict@remzi.info">ict@remzi.info</a><br>
+      <strong><i class="bi bi-envelope-at"></i> E-mail HvA:</strong> <a
+        href="mailto:remzi.cavdar@hva.nl">remzi.cavdar@hva.nl</a>
+    </p>
+    <h3>Zakelijk en portfolio</h3>
+    <p>
+      <strong><i class="bi bi-linkedin"></i> LinkedIn:</strong> <a
+        href="https://www.linkedin.com/in/remzicavdar" target="_blank">linkedin.com/in/remzicavdar</a><br>
+      <strong><i class="bi bi-github"></i> GitHub:</strong> <a href="https://github.com/Remzi1993"
+                                                               target="_blank">github.com/Remzi1993</a>
+    </p>
+
     <p>
       <router-link class="btn btn-primary" to="/portfolio">Portfolio</router-link>
     </p>
@@ -8,12 +25,6 @@
       <a class="btn btn-primary" href="https://assets.remzi.info/Curriculum-vitae-R.Cavdar.pdf"
          role="button" download="Curriculum-vitae–R.Cavdar.pdf">Download cv</a>
     </p>
-
-    <h3>Contact</h3>
-    <strong><i class="bi bi-phone"></i> Mobiel:</strong> <a href="tel:+31611719929">06 117 199 29</a><br>
-    <strong><i class="bi bi-envelope-at"></i> E-mail:</strong> <a href="mailto:ict@remzi.info">ict@remzi.info</a><br>
-    <strong><i class="bi bi-github"></i> GitHub:</strong> <a href="https://github.com/Remzi1993"
-                                                             target="_blank">github.com/Remzi1993</a><br>
   </div>
 </template>
 

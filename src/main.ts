@@ -6,7 +6,6 @@ import './main.scss'
 import App from './App.vue'
 import Home from '@/Home.vue'
 import Resume from '@/Resume.vue'
-import Contact from '@/Contact.vue'
 import Portfolio from '@/Portfolio.vue'
 import NotFound from '@/NotFound.vue'
 
@@ -16,7 +15,6 @@ const routes = [
     {path: '/', component: Home},
     {path: '/portfolio', component: Portfolio},
     {path: '/cv', component: Resume},
-    {path: '/contact', component: Contact},
     {path: '/:pathMatch(.*)', component: NotFound}
 ]
 

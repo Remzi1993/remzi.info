@@ -7,16 +7,9 @@
           <p>
             Ik studeer HBO-ICT Software Engineering aan de Hogeschool van Amsterdam (HvA).
             Mijn website is nog kaal, maar ik ben bezig om deze aan te vullen met mijn projecten
-            <picture>
-              <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f606/512.webp" type="image/webp">
-              <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f606/512.gif" alt="😆" width="32" height="32">
-            </picture>
+            <img src="../assets/img/emoji/laughing.webp" alt="😆" width="24" height="24">
           </p>
-          <h2>Ik doe veel open source
-            <picture>
-              <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
-              <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32">
-            </picture>
+          <h2>Ik doe veel open source <img src="../assets/img/emoji/rocket.webp" alt="🚀" width="32" height="32">
           </h2>
           <p>Ik vind het leuk om open source projecten te maken en bij te dragen aan bestaande projecten.
             Open source is voor mij een manier om mijn kennis te delen met anderen en om te leren van anderen.
@@ -34,16 +27,9 @@
             </a>
           </p>
           <h3>
-            <picture>
-              <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f/512.webp" type="image/webp">
-              <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f/512.gif" alt="❤" width="32"
-                   height="32">
-            </picture>
+            <img src="../assets/img/emoji/red-heart.webp" alt="❤" width="32" height="32">
             Vue.js + React.js
-            <picture>
-              <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4af/512.webp" type="image/webp">
-              <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4af/512.gif" alt="💯" width="32" height="32">
-            </picture>
+            <img src="../assets/img/emoji/100.webp" alt="💯" width="32" height="32">
           </h3>
           <p>
             Ik ben nu bezig met Vue.js en deze website heb ik ook in Vue.js gemaakt. In het verleden heb ik ook
@@ -78,7 +64,7 @@
 </template>
 
 <script lang="ts">
-import Sidebar from './Sidebar.vue'
+import Sidebar from '@/Sidebar.vue'
 
 export default {
   name: 'Home',
