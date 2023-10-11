@@ -10,16 +10,6 @@ to = "/cv"
 status = 301
 
 [[redirects]]
-from = "/contact.html"
-to = "/"
-status = 301
-
-[[redirects]]
-from = "/contact"
-to = "/
-status = 301
-
-[[redirects]]
 from = "/index.php"
 to = "/"
 status = 301
@@ -48,11 +38,6 @@ status = 200
 
 [[redirects]]
 from = "/cv"
-to = "/index.html"
-status = 200
-
-[[redirects]]
-from = "/contact"
 to = "/index.html"
 status = 200
 
