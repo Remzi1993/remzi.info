@@ -17,12 +17,8 @@
       <strong><i class="bi bi-github"></i> GitHub:</strong> <a href="https://github.com/Remzi1993"
                                                                target="_blank">github.com/Remzi1993</a>
     </p>
-
     <p>
-      <router-link class="btn btn-primary" to="/portfolio">Portfolio</router-link>
-    </p>
-    <p>
-      <a class="btn btn-primary" href="https://assets.remzi.info/Curriculum-vitae-R.Cavdar.pdf"
+      <a class="btn btn-primary" href="https://assets.remzi.info/assets/docs/Curriculum-vitae-R.Cavdar.pdf"
          role="button" download="Curriculum-vitae–R.Cavdar.pdf">Download cv</a>
     </p>
   </div>

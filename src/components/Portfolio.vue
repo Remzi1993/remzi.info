@@ -24,7 +24,7 @@
           zelfs versterken, zoals depressie, impulsiviteit en hyperactiviteit (ADHD).
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-          <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://assets.remzi.info/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
+          <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://assets.remzi.info/assets/docs/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
              role="button" download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf">Download onderzoeksverslag</a>
 
           <a class="btn btn-outline-secondary btn-lg px-4" href="https://doi.org/10.5281/zenodo.7647322"
@@ -33,9 +33,9 @@
       </div>
       <div class="overflow-hidden" style="max-height: 30vh;">
         <div class="container px-5">
-          <a href="https://assets.remzi.info/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
+          <a href="https://assets.remzi.info/assets/docs/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
              download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf">
-            <img src="https://assets.remzi.info/img/cover.png" class="img-fluid border rounded-3 shadow-lg mb-4 cover-image"
+            <img src="https://assets.remzi.info/assets/images/cover.png" class="img-fluid border rounded-3 shadow-lg mb-4 cover-image"
                  alt="Cover image of the research report" loading="lazy">
           </a>
         </div>

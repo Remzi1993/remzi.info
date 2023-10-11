@@ -4,12 +4,14 @@
       <div class="row d-print-none">
         <div class="col">
           <h1>Mijn cv <i class="bi bi-file-earmark-person-fill"></i></h1>
+          <p><a class="btn btn-primary" href="https://assets.remzi.info/assets/docs/Curriculum-vitae-R.Cavdar.pdf"
+                role="button" download="Curriculum-vitae–R.Cavdar.pdf">Liever een PDF?</a></p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-3" style="width: 100%;">
-            <img src="../assets/img/profile-photo.jpg" class="card-img-top" alt="...">
+            <img src="../assets/img/profile-photo.jpg" class="card-img-top" alt="Profile image">
             <div class="card-body">
               <h6 class="card-title">Profiel</h6>
               <p class="card-text small">Ik heb gevoel voor rechtvaardigheid en ben maatschappelijk betrokken.
