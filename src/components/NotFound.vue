@@ -5,17 +5,9 @@
         <div class="col">
           <div class="d-flex align-items-center justify-content-center pt-xl-5">
             <div class="d-flex flex-column align-items-center text-center">
-              <h1 class="display-1 fw-bold">Pagina niet gevonden
-                <picture>
-                  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f635_200d_1f4ab/512.webp" type="image/webp">
-                  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f635_200d_1f4ab/512.gif" alt="😵" width="32" height="32">
-                </picture>
-              </h1>
+              <h1 class="display-1 fw-bold">Pagina niet gevonden <img src="../assets/img/emoji/dizzy-face.webp" alt="😵" width="64" height="64"></h1>
               <p class="fs-3"><span class="text-danger">Oepsie!</span> Pagina is nergens te bekennen
-                <picture>
-                  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f605/512.webp" type="image/webp">
-                  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f605/512.gif" alt="😅" width="32" height="32">
-                </picture>
+                <img src="../assets/img/emoji/grin-sweat.webp" alt="😅" width="32" height="32">
               </p>
               <p class="lead d-flex justify-content-center">
                 Mischien is het een tijdelijke storing, of is de pagina verplaatst. Altijd een goed idee om terug naar

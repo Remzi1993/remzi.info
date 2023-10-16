@@ -16,7 +16,7 @@
             En het is ook een hobby waar je ook veel van leert.
           </p>
           <p>
-            Deze website is open source en je kan de code vinden op: <a href="https://github.com/Remzi1993/remzi-info"
+            Deze website is open source en je kan de code vinden op: <a href="https://github.com/Remzi1993/remzi.info"
                                                                         target="_blank">github.com/Remzi1993/remzi-info</a>
           </p>
           <p class="mb-4">

@@ -16,13 +16,13 @@ status = 301
 
 [[redirects]]
 from = "/assets/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
-to = "https://assets.remzi.info/assets/docs/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
+to = "https://storage.remzi.info/assets/docs/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
 status = 301
 
 # Default favicon redirect
 [[redirects]]
 from = "/favicon.ico"
-to = "https://assets.remzi.info/assets/images/logo.png"
+to = "https://storage.remzi.info/assets/images/logo.png"
 status = 301
 
 # Pages

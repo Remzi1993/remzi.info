@@ -18,7 +18,7 @@
                                                                target="_blank">github.com/Remzi1993</a>
     </p>
     <p>
-      <a class="btn btn-primary" href="https://assets.remzi.info/assets/docs/Curriculum-vitae-R.Cavdar.pdf"
+      <a class="btn btn-primary" href="https://storage.remzi.info/assets/docs/Curriculum-vitae-R.Cavdar.pdf"
          role="button" download="Curriculum-vitae–R.Cavdar.pdf">Download cv</a>
     </p>
   </div>
