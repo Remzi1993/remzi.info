@@ -2,7 +2,7 @@
   <main class="py-4 small">
     <div class="container">
       <div class="row d-print-none">
-        <div class="col">
+        <div class="col pb-4">
           <h1>Mijn cv <i class="bi bi-file-earmark-person-fill"></i></h1>
           <p><a class="btn btn-primary" href="https://storage.remzi.info/assets/docs/Curriculum-vitae-R.Cavdar.pdf"
                 role="button" download="Curriculum-vitae–R.Cavdar.pdf">Liever een PDF?</a></p>
@@ -32,75 +32,75 @@
           <div class="skill-rating">
             <span>Nederlands</span>
             <div class="rating">
-              <input type="radio" name="skill-6" id="skill-3-star5" disabled><label for="skill-6-star5" title="5 stars">★</label>
-              <input type="radio" name="skill-6" id="skill-3-star4" disabled checked><label for="skill-6-star4" title="4 stars">★</label>
-              <input type="radio" name="skill-6" id="skill-3-star3" disabled><label for="skill-6-star3" title="3 stars">★</label>
-              <input type="radio" name="skill-6" id="skill-3-star2" disabled><label for="skill-6-star2" title="2 stars">★</label>
-              <input type="radio" name="skill-6" id="skill-3-star1" disabled><label for="skill-6-star1" title="1 star">★</label>
+              <input type="radio" id="skill-1-star5" disabled><label for="skill-1-star5" title="5 stars">★</label>
+              <input type="radio" id="skill-1-star4" disabled checked><label for="skill-1-star4" title="4 stars">★</label>
+              <input type="radio" id="skill-1-star3" disabled><label for="skill-1-star3" title="3 stars">★</label>
+              <input type="radio" id="skill-1-star2" disabled><label for="skill-1-star2" title="2 stars">★</label>
+              <input type="radio" id="skill-1-star1" disabled><label for="skill-1-star1" title="1 star">★</label>
             </div>
           </div>
           <div class="skill-rating">
             <span>Engels</span>
             <div class="rating">
-              <input type="radio" name="skill-7" id="skill-3-star5" disabled><label for="skill-7-star5" title="5 stars">★</label>
-              <input type="radio" name="skill-7" id="skill-3-star4" disabled><label for="skill-7-star4" title="4 stars">★</label>
-              <input type="radio" name="skill-7" id="skill-3-star3" disabled checked><label for="skill-7-star3" title="3 stars">★</label>
-              <input type="radio" name="skill-7" id="skill-3-star2" disabled><label for="skill-7-star2" title="2 stars">★</label>
-              <input type="radio" name="skill-7" id="skill-3-star1" disabled><label for="skill-7-star1" title="1 star">★</label>
+              <input type="radio" id="skill-2-star5" disabled><label for="skill-2-star5" title="5 stars">★</label>
+              <input type="radio" id="skill-2-star4" disabled><label for="skill-2-star4" title="4 stars">★</label>
+              <input type="radio" id="skill-2-star3" disabled checked><label for="skill-2-star2" title="3 stars">★</label>
+              <input type="radio" id="skill-2-star2" disabled><label for="skill-2-star1" title="2 star">★</label>
+              <input type="radio" id="skill-2-star1" disabled><label for="skill-2-star3" title="1 stars">★</label>
             </div>
           </div>
           <div class="skill-rating">
             <span>Full stack web development</span>
             <div class="rating">
-              <input type="radio" name="skill-1" id="skill-1-star5" disabled><label for="skill-1-star5" title="5 stars">★</label>
-              <input type="radio" name="skill-1" id="skill-1-star4" checked disabled><label for="skill-1-star4" title="4 stars">★</label>
-              <input type="radio" name="skill-1" id="skill-1-star3" disabled><label for="skill-1-star3" title="3 stars">★</label>
-              <input type="radio" name="skill-1" id="skill-1-star2" disabled><label for="skill-1-star2" title="2 stars">★</label>
-              <input type="radio" name="skill-1" id="skill-1-star1" disabled><label for="skill-1-star1" title="1 star">★</label>
+              <input type="radio" id="skill-3-star5" disabled><label for="skill-3-star5" title="5 stars">★</label>
+              <input type="radio" id="skill-3-star4" checked disabled><label for="skill-3-star4" title="4 stars">★</label>
+              <input type="radio" id="skill-3-star3" disabled><label for="skill-3-star3" title="3 stars">★</label>
+              <input type="radio" id="skill-3-star2" disabled><label for="skill-3-star2" title="2 stars">★</label>
+              <input type="radio" id="skill-3-star1" disabled><label for="skill-3-star1" title="1 star">★</label>
             </div>
           </div>
           <div class="skill-rating">
             <span>Java</span>
             <div class="rating">
-              <input type="radio" name="skill-2" id="skill-2-star5" disabled><label for="skill-2-star5" title="5 stars">★</label>
-              <input type="radio" name="skill-2" id="skill-2-star4" disabled><label for="skill-2-star4" title="4 stars">★</label>
-              <input type="radio" name="skill-2" id="skill-2-star3" checked disabled><label for="skill-2-star3" title="3 stars">★</label>
-              <input type="radio" name="skill-2" id="skill-2-star2" disabled><label for="skill-2-star2" title="2 stars">★</label>
-              <input type="radio" name="skill-2" id="skill-2-star1" disabled><label for="skill-2-star1" title="1 star">★</label>
+              <input type="radio" id="skill-4-star5" disabled><label for="skill-4-star5" title="5 stars">★</label>
+              <input type="radio" id="skill-4-star4" disabled><label for="skill-4-star4" title="4 stars">★</label>
+              <input type="radio" id="skill-4-star3" checked disabled><label for="skill-4-star3" title="3 stars">★</label>
+              <input type="radio" id="skill-4-star2" disabled><label for="skill-4-star2" title="2 stars">★</label>
+              <input type="radio" id="skill-4-star1" disabled><label for="skill-4-star1" title="1 star">★</label>
             </div>
           </div>
           <div class="skill-rating">
             <span>React & Vue.js</span>
             <div class="rating">
-              <input type="radio" name="skill-3" id="skill-3-star5" disabled><label for="skill-3-star5" title="5 stars">★</label>
-              <input type="radio" name="skill-3" id="skill-3-star4" disabled><label for="skill-3-star4" title="4 stars">★</label>
-              <input type="radio" name="skill-3" id="skill-3-star3" checked disabled><label for="skill-3-star3" title="3 stars">★</label>
-              <input type="radio" name="skill-3" id="skill-3-star2" disabled><label for="skill-3-star2" title="2 stars">★</label>
-              <input type="radio" name="skill-3" id="skill-3-star1" disabled><label for="skill-3-star1" title="1 star">★</label>
+              <input type="radio" id="skill-5-star5" disabled><label for="skill-5-star5" title="5 stars">★</label>
+              <input type="radio" id="skill-5-star4" disabled><label for="skill-5-star4" title="4 stars">★</label>
+              <input type="radio" id="skill-5-star3" checked disabled><label for="skill-5-star3" title="3 stars">★</label>
+              <input type="radio" id="skill-5-star2" disabled><label for="skill-5-star2" title="2 stars">★</label>
+              <input type="radio" id="skill-5-star1" disabled><label for="skill-5-star1" title="1 star">★</label>
             </div>
           </div>
           <div class="skill-rating">
             <span>MySQL</span>
             <div class="rating">
-              <input type="radio" name="skill-4" id="skill-3-star5" disabled><label for="skill-4-star5" title="5 stars">★</label>
-              <input type="radio" name="skill-4" id="skill-3-star4" disabled><label for="skill-4-star4" title="4 stars">★</label>
-              <input type="radio" name="skill-4" id="skill-3-star3" checked disabled><label for="skill-4-star3" title="3 stars">★</label>
-              <input type="radio" name="skill-4" id="skill-3-star2" disabled><label for="skill-4-star2" title="2 stars">★</label>
-              <input type="radio" name="skill-4" id="skill-3-star1" disabled><label for="skill-4-star1" title="1 star">★</label>
+              <input type="radio" id="skill-6-star5" disabled><label for="skill-6-star5" title="5 stars">★</label>
+              <input type="radio" id="skill-6-star4" disabled><label for="skill-6-star4" title="4 stars">★</label>
+              <input type="radio" id="skill-6-star3" checked disabled><label for="skill-6-star3" title="3 stars">★</label>
+              <input type="radio" id="skill-6-star2" disabled><label for="skill-6-star2" title="2 stars">★</label>
+              <input type="radio" id="skill-6-star1" disabled><label for="skill-6-star1" title="1 star">★</label>
             </div>
           </div>
           <div class="skill-rating">
             <span>PHP & WordPress</span>
             <div class="rating">
-              <input type="radio" name="skill-5" id="skill-3-star5" disabled><label for="skill-5-star5" title="5 stars">★</label>
-              <input type="radio" name="skill-5" id="skill-3-star4" disabled><label for="skill-5-star4" title="4 stars">★</label>
-              <input type="radio" name="skill-5" id="skill-3-star3" checked disabled><label for="skill-5-star3" title="3 stars">★</label>
-              <input type="radio" name="skill-5" id="skill-3-star2" disabled><label for="skill-5-star2" title="2 stars">★</label>
-              <input type="radio" name="skill-5" id="skill-3-star1" disabled><label for="skill-5-star1" title="1 star">★</label>
+              <input type="radio" id="skill-7-star5" disabled><label for="skill-7-star5" title="5 stars">★</label>
+              <input type="radio" id="skill-7-star4" disabled><label for="skill-7-star4" title="4 stars">★</label>
+              <input type="radio" id="skill-7-star3" checked disabled><label for="skill-7-star3" title="3 stars">★</label>
+              <input type="radio" id="skill-7-star2" disabled><label for="skill-7-star2" title="2 stars">★</label>
+              <input type="radio" id="skill-7-star1" disabled><label for="skill-7-star1" title="1 star">★</label>
             </div>
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 ps-xl-4">
           <h2 class="text-center">Remzi Cavdar</h2>
           <h3 class="text-center yellow">Software Engineer</h3>
           <hr/>

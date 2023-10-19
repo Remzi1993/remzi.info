@@ -2,7 +2,7 @@
   <main class="py-4">
     <div class="container">
       <div class="row">
-        <div class="col-xl-8">
+        <div class="col-lg-8">
           <h1>Mijn naam is Remzi Cavdar</h1>
           <p>
             Ik studeer HBO-ICT Software Engineering aan de Hogeschool van Amsterdam (HvA).
@@ -69,5 +69,13 @@ export default {
 <style lang="scss" scoped>
 svg {
   max-width: 24px;
+}
+@media (max-width: 992px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-lg-3 {
+    padding-bottom: 25px;
+  }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="col-xl-3 ms-auto">
+  <div class="col-lg-3 ms-auto">
     <h2>Mijn visitekaartje <i class="bi bi-person-lines-fill"></i></h2>
     <p>
       <strong><i class="bi bi-person"></i> Naam:</strong> Remzi Cavdar<br>

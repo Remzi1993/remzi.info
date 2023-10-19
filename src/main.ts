@@ -25,6 +25,8 @@ const router = createRouter({
         // always scroll to top
         return {top: 0}
     },
+    linkActiveClass: "active",
+    linkExactActiveClass: "active"
 })
 
 createApp(App)
