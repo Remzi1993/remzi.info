@@ -33,10 +33,13 @@ export default {
 <style lang="scss" scoped>
 @media (max-width: 992px) {
   h2 {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
+  }
+  h3 {
+    font-size: 2rem;
   }
   p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 }
 </style>
