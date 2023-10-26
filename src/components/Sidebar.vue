@@ -29,3 +29,14 @@ export default {
   name: 'Sidebar'
 }
 </script>
+
+<style lang="scss" scoped>
+@media (max-width: 992px) {
+  h2 {
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+</style>
