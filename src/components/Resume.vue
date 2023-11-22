@@ -191,7 +191,22 @@
 
 <script lang="ts">
 export default {
-  name: 'Resume'
+  name: 'Resume',
+  head() {
+    return {
+      title: 'Curriculum vitae - Remzi Cavdar',
+      meta: [
+        {
+          name: 'description',
+          content: 'Curriculum vitae van Remzi Cavdar'
+        },
+        {
+          name: 'author',
+          content: 'Remzi Cavdar'
+        },
+      ]
+    }
+  }
 }
 </script>
 

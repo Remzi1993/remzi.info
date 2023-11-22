@@ -62,7 +62,22 @@ import Sidebar from '@/Sidebar.vue'
 
 export default {
   name: 'Home',
-  components: {Sidebar}
+  components: {Sidebar},
+  head() {
+    return {
+      title: 'Home - Remzi Cavdar',
+      meta: [
+        {
+          name: 'description',
+          content: 'Mijn naam is Remzi Cavdar en ik studeer HBO-ICT Software Engineering aan de Hogeschool van Amsterdam (HvA).'
+        },
+        {
+          name: 'author',
+          content: 'Remzi Cavdar'
+        },
+      ]
+    }
+  }
 }
 </script>
 

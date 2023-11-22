@@ -50,7 +50,22 @@ import Sidebar from '@/Sidebar.vue'
 
 export default {
   name: 'Portfolio',
-  components: {Sidebar}
+  components: {Sidebar},
+  head() {
+    return {
+      title: 'Portfolio - Remzi Cavdar',
+      meta: [
+        {
+          name: 'description',
+          content: 'Ik heb veel projecten op GitHub staan. Alleen kan ik niet alle projecten en practica online zetten van de HvA vanwege het feit dat andere studenten dezelfde practica doen. Op aanvraag kan ik uiteraard wel de code laten zien en het project versturen. Hieronder zal ik mijn portfolio laten zien van projecten die ik wel online mag zetten.'
+        },
+        {
+          name: 'author',
+          content: 'Remzi Cavdar'
+        },
+      ]
+    }
+  }
 }
 </script>
 
