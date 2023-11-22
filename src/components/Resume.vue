@@ -11,152 +11,52 @@
 
       <div class="d-none d-print-block pt-5"></div>
 
-      <div class="row">
+      <div class="row resume">
         <div class="col-md-6">
           <div class="row">
-            <div class="col-md-4" id="profile-image">
+            <div class="col-md-4">
               <img src="../assets/img/profile-photo.jpg" alt="Profile image">
             </div>
             <div class="col-md-8">
-              <h2 class="mt-4 mt-md-0">Remzi Cavdar</h2>
-              <h3 class="yellow subtitle">Software Engineer</h3>
+              <h2 class="mt-4 mt-md-0" style="color: white;">Remzi Cavdar</h2>
+              <h3 class="subtitle">Software Engineer</h3>
               <p id="info">
-                <strong><i class="bi bi-calendar-date"></i> Geboortedatum:</strong> 11-06-1993<br>
-                <strong><i class="bi bi-house"></i> Woonplaats:</strong> Amsterdam<br>
-                <strong><i class="bi bi-phone"></i> Mobiel:</strong> <a href="tel:+31611719929">06 117 199 29</a><br>
-                <strong><i class="bi bi-envelope-at"></i> E-mail:</strong> <a
-                  href="mailto:ict@remzi.info">ict@remzi.info</a><br>
-                <strong><i class="bi bi-linkedin"></i> LinkedIn:</strong> <a
+                <strong>Geboortedatum:</strong> 11-06-1993<br>
+                <strong>Woonplaats:</strong> Amsterdam<br>
+                <strong>Mobiel:</strong> <a href="tel:+31611719929">06 117 199 29</a><br>
+                <strong>E-mail:</strong> <a href="mailto:ict@remzi.info">ict@remzi.info</a><br>
+                <strong>LinkedIn:</strong> <a
                   href="https://www.linkedin.com/in/remzicavdar" target="_blank">linkedin.com/in/remzicavdar</a><br>
-                <strong><i class="bi bi-github"></i> GitHub:</strong> <a href="https://github.com/Remzi1993"
+                <strong>GitHub:</strong> <a href="https://github.com/Remzi1993"
                                                                          target="_blank">github.com/Remzi1993</a>
               </p>
             </div>
           </div>
 
-          <h2 class="red mt-3 mt-lg-4">Opleiding</h2>
+          <h2 class="mt-3 mt-lg-4">Opleiding</h2>
           <h3>2021 - HEDEN - Hogeschool van Amsterdam</h3>
-          <h4 class="yellow subtitle">HBO-ICT Software Engineering</h4>
+          <h4 class="subtitle">HBO-ICT Software Engineering</h4>
           <h3>2011 - 2014 - ROC TOP</h3>
-          <h4 class="yellow subtitle">MBO niveau 4 / Applicatie- en mediaontwikkeling</h4>
+          <h4 class="subtitle">MBO niveau 4 / Applicatie- en mediaontwikkeling</h4>
 
-          <h2 class="red mt-3 mt-lg-4">Skills</h2>
-          <div class="rating">
-            <span>Nederlands</span>
-            <div class="stars">
-              <input type="radio" id="skill-1-star5" name="skill-1" disabled>
-              <label for="skill-1-star5"></label>
-              <input type="radio" id="skill-1-star4" name="skill-1" disabled checked>
-              <label for="skill-1-star4"></label>
-              <input type="radio" id="skill-1-star3" name="skill-1" disabled>
-              <label for="skill-1-star3"></label>
-              <input type="radio" id="skill-1-star2" name="skill-1" disabled>
-              <label for="skill-1-star2"></label>
-              <input type="radio" id="skill-1-star1" name="skill-1" disabled>
-              <label for="skill-1-star1"></label>
-            </div>
-          </div>
+          <h2 class="mt-3 mt-lg-4">Skills</h2>
+          <p>Engels | HTML/CSS | JSON | PHP | WordPress | JavaScript | React | Vue.js | MySQL | Java | JavaFX | Apache Maven | XML | DNS | Linux | Bash Scripts | SEO </p>
 
-          <div class="rating">
-            <span>Engels</span>
-            <div class="stars">
-              <input type="radio" id="skill-2-star5" name="skill-2" disabled>
-              <label for="skill-2-star5"></label>
-              <input type="radio" id="skill-2-star4" name="skill-2" disabled>
-              <label for="skill-2-star4"></label>
-              <input type="radio" id="skill-2-star3" name="skill-2" disabled checked>
-              <label for="skill-2-star3"></label>
-              <input type="radio" id="skill-2-star2" name="skill-2" disabled>
-              <label for="skill-2-star2"></label>
-              <input type="radio" id="skill-2-star1" name="skill-2" disabled>
-              <label for="skill-2-star1"></label>
-            </div>
-          </div>
-
-          <div class="rating">
-            <span>Full stack web development</span>
-            <div class="stars">
-              <input type="radio" id="skill-3-star5" name="skill-3" disabled>
-              <label for="skill-3-star5"></label>
-              <input type="radio" id="skill-3-star4" name="skill-3" disabled checked>
-              <label for="skill-3-star4"></label>
-              <input type="radio" id="skill-3-star3" name="skill-3" disabled>
-              <label for="skill-3-star3"></label>
-              <input type="radio" id="skill-3-star2" name="skill-3" disabled>
-              <label for="skill-3-star2"></label>
-              <input type="radio" id="skill-3-star1" name="skill-3" disabled>
-              <label for="skill-3-star1"></label>
-            </div>
-          </div>
-
-          <div class="rating">
-            <span>Java</span>
-            <div class="stars">
-              <input type="radio" id="skill-4-star5" name="skill-4" disabled>
-              <label for="skill-4-star5"></label>
-              <input type="radio" id="skill-4-star4" name="skill-4" disabled>
-              <label for="skill-4-star4"></label>
-              <input type="radio" id="skill-4-star3" name="skill-4" disabled checked>
-              <label for="skill-4-star3"></label>
-              <input type="radio" id="skill-4-star2" name="skill-4" disabled>
-              <label for="skill-4-star2"></label>
-              <input type="radio" id="skill-4-star1" name="skill-4" disabled>
-              <label for="skill-4-star1"></label>
-            </div>
-          </div>
-
-          <div class="rating">
-            <span>React & Vue.js</span>
-            <div class="stars">
-              <input type="radio" id="skill-5-star5" name="skill-5" disabled>
-              <label for="skill-5-star5"></label>
-              <input type="radio" id="skill-5-star4" name="skill-5" disabled>
-              <label for="skill-5-star4"></label>
-              <input type="radio" id="skill-5-star3" name="skill-5" disabled checked>
-              <label for="skill-5-star3"></label>
-              <input type="radio" id="skill-5-star2" name="skill-5" disabled>
-              <label for="skill-5-star2"></label>
-              <input type="radio" id="skill-5-star1" name="skill-5" disabled>
-              <label for="skill-5-star1"></label>
-            </div>
-          </div>
-
-          <div class="rating">
-            <span>MySQL</span>
-            <div class="stars">
-              <input type="radio" id="skill-6-star5" name="skill-6" disabled>
-              <label for="skill-6-star5"></label>
-              <input type="radio" id="skill-6-star4" name="skill-6" disabled>
-              <label for="skill-6-star4"></label>
-              <input type="radio" id="skill-6-star3" name="skill-6" disabled checked>
-              <label for="skill-6-star3"></label>
-              <input type="radio" id="skill-6-star2" name="skill-6" disabled>
-              <label for="skill-6-star2"></label>
-              <input type="radio" id="skill-6-star1" name="skill-6" disabled>
-              <label for="skill-6-star1"></label>
-            </div>
-          </div>
-
-          <div class="rating">
-            <span>PHP & WordPress</span>
-            <div class="stars">
-              <input type="radio" id="skill-7-star5" name="skill-7" disabled>
-              <label for="skill-7-star5"></label>
-              <input type="radio" id="skill-7-star4" name="skill-7" disabled>
-              <label for="skill-7-star4"></label>
-              <input type="radio" id="skill-7-star3" name="skill-7" disabled checked>
-              <label for="skill-7-star3"></label>
-              <input type="radio" id="skill-7-star2" name="skill-7" disabled>
-              <label for="skill-7-star2"></label>
-              <input type="radio" id="skill-7-star1" name="skill-7" disabled>
-              <label for="skill-7-star1"></label>
-            </div>
-          </div>
+          <h2 class="mt-3 mt-lg-4">Extra</h2>
+          <h3>2019 - Codaisseur</h3>
+          <h4 class="subtitle">Full-stack web development</h4>
+          <ul>
+            <li>11 weken bootcamp</li>
+          </ul>
+          <h3>2011 - Stavoor</h3>
+          <h4 class="subtitle">Certificaat Deelnemers en Medezeggenschap</h4>
+          <h3>2008 - Worksite</h3>
+          <h4 class="subtitle">Certificaat Sociale Vaardigheidstraining</h4>
         </div>
         <div class="col-md-6">
-          <h2 class="red mt-3 mt-md-0">Werkervaring</h2>
+          <h2 class="mt-3 mt-md-0">Werkervaring</h2>
           <h3>2019 - Lead Me</h3>
-          <h4 class="yellow subtitle">WordPress Developer / Systeembeheerder</h4>
+          <h4 class="subtitle">WordPress Developer / Systeembeheerder</h4>
           <ul>
             <li>Beheren van hosting (backups, optimaliseren en kwaliteit bewaken)</li>
             <li>Onderhouden van WordPress websites</li>
@@ -164,7 +64,7 @@
             <li>Testen en bugs oplossen</li>
           </ul>
           <h3>2018 - 2019 - PREMIUMS / Advanza</h3>
-          <h4 class="yellow subtitle">Web Developer</h4>
+          <h4 class="subtitle">Web Developer</h4>
           <ul>
             <li>Ontwikkelen en onderhouden van WordPress plugins en thema's</li>
             <li>Ontwikkelen en onderhouden van online formulieren</li>
@@ -172,12 +72,12 @@
             <li>Oplossen van verschillende IT problemen</li>
           </ul>
           <h3>2014 - 2015 - 10Forward</h3>
-          <h4 class="yellow subtitle">Web Developer</h4>
+          <h4 class="subtitle">Web Developer</h4>
           <ul>
             <li>Ontwikkelen, bijwerken en onderhouden van websites & webshops</li>
           </ul>
           <h3>2012 - 2015 - Remzi.info</h3>
-          <h4 class="yellow subtitle">Freelance Full Stack Web Developer & advies</h4>
+          <h4 class="subtitle">Freelance Full Stack Web Developer & advies</h4>
           <ul>
             <li>Ontwikkelen, bijwerken en onderhouden van websites</li>
             <li>Verzorgen van webhosting voor cliënten</li>
@@ -226,6 +126,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+  color: #fc4442;
 }
 
 h3 {
@@ -238,6 +139,7 @@ h4 {
 
 .subtitle {
   margin-top: -0.6rem;
+  color: #FFD933;
 }
 
 ul, p, .rating, .subtitle {
@@ -249,11 +151,6 @@ img {
 }
 
 @media (max-width: 575.98px) {
-  #profile-image {
-    display: flex;
-    justify-content: center;
-  }
-
   img {
     margin-bottom: 1rem;
   }
