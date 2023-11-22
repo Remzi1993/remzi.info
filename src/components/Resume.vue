@@ -204,6 +204,12 @@ export default {
           name: 'author',
           content: 'Remzi Cavdar'
         },
+      ],
+      link: [
+        {
+          name: 'canonical',
+          content: 'https://remzi.info/cv'
+        }
       ]
     }
   }
