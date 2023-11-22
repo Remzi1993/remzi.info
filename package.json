@@ -12,17 +12,17 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.1",
-    "vue": "^3.3.7",
+    "vue": "^3.3.8",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@types/bootstrap": "^5.2.8",
-    "@types/node": "^20.8.8",
-    "@vitejs/plugin-vue": "^4.4.0",
-    "sass": "^1.69.4",
+    "@types/bootstrap": "^5.2.9",
+    "@types/node": "^20.9.3",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
-    "typescript": "^5.2.2",
-    "vite": "^4.5.0",
-    "vue-tsc": "^1.8.20"
+    "typescript": "^5.3.2",
+    "vite": "^5.0.2",
+    "vue-tsc": "^1.8.22"
   }
 }
