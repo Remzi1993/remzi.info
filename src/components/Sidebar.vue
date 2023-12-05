@@ -7,8 +7,17 @@
       <strong><i class="bi bi-phone"></i> Mobiel:</strong> <a href="tel:+31611719929">06 117 199 29</a><br>
       <strong><i class="bi bi-envelope-at"></i> E-mail:</strong> <a
         href="mailto:ict@remzi.info">ict@remzi.info</a><br>
-      <strong><i class="bi bi-envelope-at"></i> E-mail HvA:</strong> <a
-        href="mailto:remzi.cavdar@hva.nl">remzi.cavdar@hva.nl</a>
+    </p>
+    <h3>Hogeschool van Amsterdam</h3>
+    <p>
+      <strong><i class="bi bi-building"></i> Locatie:</strong> Wibauthuis (WBH)<br>
+      <strong><i class="bi bi-envelope-at"></i> E-mail:</strong> <a
+        href="mailto:remzi.cavdar@hva.nl">remzi.cavdar@hva.nl</a><br>
+      <strong><i class="bi bi-mortarboard"></i> </strong> <a
+        href="https://scholar.google.com/citations?user=14W7_vQAAAAJ"
+        target="_blank" rel="noopener noreferrer">Google Scholar</a><br>
+      <strong><i class="bi bi-mortarboard"></i> </strong> <a
+        href="https://www.researchgate.net/profile/Remzi-Cavdar">ResearchGate</a>
     </p>
     <h3>Zakelijk en portfolio</h3>
     <p>
