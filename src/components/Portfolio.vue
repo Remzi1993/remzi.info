@@ -15,7 +15,35 @@
       </div>
     </div>
     <div class="px-4 my-5 text-center border-bottom">
-      <h1 class="display-4 fw-bold">Literatuuronderzoek</h1>
+      <h2>The future is modular; how Framework Computer, Inc.<br> challenges tech ethics</h2>
+      <h3 class="h5">An ethical analysis of Framework and their goal of repairability, upgradability,<br>
+        sustainability, and their fight against e-waste and planned obsolescence.</h3>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">This report addresses the environmental impact of electronic waste and low EU recycling rates. It spotlights Framework's sustainable electronics, like the modular Framework Laptop 13 and 16, advocating for repairability and upgradability. The 'right to repair' movement's significance and the need for a shift towards sustainability are emphasized. It also touches on the role of open-source tech in ethical tech practices.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <a class="btn btn-primary btn-lg px-4 me-sm-3"
+             href="https://storage.remzi.info/assets/docs/The-future-is-modular-R.Cavdar-06-11-2023.pdf"
+             role="button" download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf">Download report</a>
+
+          <a class="btn btn-outline-secondary btn-lg px-4" href="https://doi.org/10.5281/zenodo.10159175"
+             role="button" target="_blank">DOI: 10.5281/zenodo.10159175</a>
+        </div>
+      </div>
+      <div class="overflow-hidden cover" style="max-height: 30vh;">
+        <div class="container px-5">
+          <a href="https://storage.remzi.info/assets/docs/The-future-is-modular-R.Cavdar-06-11-2023.pdf"
+             download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf">
+            <img src="../assets/img/cover2.png" class="img-fluid border rounded-3 mb-4 cover-image"
+                 alt="Cover image of the research report" loading="lazy">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="px-4 my-5 text-center border-bottom">
+      <h2 class="display-4 fw-bold">Het gebruik van sociale media onder jongeren;</h2>
+      <h3>In hoeverre heeft het gebruik van sociale media negatieve consequenties bij jongeren?</h3>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">De hypothese dat dwangmatig gebruik van sociale media tot negatieve consequenties kan
           leiden bij jongeren (11 tot 18 jaar), wordt in dit literatuuronderzoek bevestigd. Men kan
@@ -78,5 +106,9 @@ export default {
 <style lang="scss" scoped>
 .cover-image {
   width: 700px;
+}
+
+.cover img {
+  box-shadow: inset 0 2px 0px #dcffa6, 0 2px 5px #000;
 }
 </style>
