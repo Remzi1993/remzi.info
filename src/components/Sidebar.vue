@@ -17,7 +17,7 @@
         href="https://scholar.google.com/citations?user=14W7_vQAAAAJ"
         target="_blank" rel="noopener noreferrer">Google Scholar</a><br>
       <strong><i class="bi bi-mortarboard"></i> </strong> <a
-        href="https://www.researchgate.net/profile/Remzi-Cavdar">ResearchGate</a>
+        href="https://www.researchgate.net/profile/Remzi-Cavdar" target="_blank">ResearchGate</a>
     </p>
     <h3>Zakelijk en portfolio</h3>
     <p>
@@ -27,7 +27,7 @@
                                                                target="_blank">github.com/Remzi1993</a>
     </p>
     <p>
-      <a class="btn btn-primary" href="https://storage.remzi.info/assets/docs/Curriculum-vitae-R.Cavdar.pdf"
+      <a class="btn btn-primary" href="https://storage.remzi.info/assets/docs/Curriculum-vitae-R.Cavdar.pdf" target="_blank"
          role="button" download="Curriculum-vitae–R.Cavdar.pdf">Download cv</a>
     </p>
   </div>
