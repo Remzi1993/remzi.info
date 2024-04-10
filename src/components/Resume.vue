@@ -19,7 +19,7 @@
             </div>
             <div class="col-md-8">
               <h2 class="mt-4 mt-md-0" style="color: white;">Remzi Cavdar</h2>
-              <h3 class="subtitle">Software Engineer</h3>
+              <h3 class="subtitle">Software Engineer i.o.</h3>
               <p id="info">
                 <strong>Geboortedatum:</strong> 11-06-1993<br>
                 <strong>Woonplaats:</strong> Amsterdam<br>
@@ -40,7 +40,8 @@
           <h4 class="subtitle">MBO niveau 4 / Applicatie- en mediaontwikkeling</h4>
 
           <h2 class="mt-3 mt-lg-4">Skills</h2>
-          <p>Engels | HTML/CSS | JSON | PHP | WordPress | JavaScript | React | Vue.js | MySQL | Java | JavaFX | Apache Maven | XML | DNS | Linux | Bash Scripts | SEO </p>
+          <p>HTML/CSS | JavaScript | React | Redis | Vue.js | Vite | PHP | WordPress | Java | JavaFX | Spring Boot
+            | C# | .NET | JSON | XML | MySQL | MariaDB | MongoDB | Apache Maven | Apache server | DNS | Linux | Bash | SEO | Nederlands | Engels </p>
 
           <h2 class="mt-3 mt-lg-4">Extra</h2>
           <h3>2019 - Codaisseur</h3>
