@@ -40,8 +40,9 @@
           <h4 class="subtitle">MBO niveau 4 / Applicatie- en mediaontwikkeling</h4>
 
           <h2 class="mt-3 mt-lg-4">Skills</h2>
-          <p>HTML/CSS | JavaScript | React | Redis | Vue.js | Vite | PHP | WordPress | Java | JavaFX | Spring Boot
-            | C# | .NET | JSON | XML | MySQL | MariaDB | MongoDB | Apache Maven | Apache server | DNS | Linux | Bash | SEO | Nederlands | Engels </p>
+          <p>HTML/CSS | JavaScript | React | Redis | Vue.js | Vite | PHP | WordPress | Java | JavaFX | Spring Boot | JPA
+            | Hibernate | RESTful API | TypeScript | Node.js | C# | .NET | JSON | XML | MySQL | MariaDB | MongoDB
+            | Apache Maven | Apache server | DNS | Linux | Bash | Git | MVC | Agile/Scrum | SEO | Nederlands | Engels </p>
 
           <h2 class="mt-3 mt-lg-4">Extra</h2>
           <h3>2019 - Codaisseur</h3>
