@@ -1,7 +1,8 @@
-<img src="https://github.com/Remzi1993/remzi.info/assets/980950/3c0f18eb-71c7-4a80-8c2c-3e6015339f16" alt="Remzi Cavdar" style="width: 150px;">
+<img src="https://raw.githubusercontent.com/Remzi1993/remzi.info/main/src/assets/img/profile-photo.jpg" alt="Remzi Cavdar" style="width: 150px;">
 
 # [remzi.info](https://remzi.info)
-My personal website built with Vite, Vue.js, TypeScript and Sass.
+My personal website is built with Vite, Vue.js, TypeScript and Sass.
+I keep my packages up to date with: `npx npm-check-updates -u`
 
 ## Open source
 My website is open source and can be used as a template. You can find the source code at: https://github.com/Remzi1993/remzi.info
