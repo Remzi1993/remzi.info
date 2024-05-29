@@ -8,6 +8,17 @@ $red: #FC4442;
 
 .navbar {
   --bs-navbar-color: #FFD933;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.3);
+}
+
+main {
+  padding-top: calc(1.5rem + 97px);
+}
+
+@media print {
+  main {
+    padding-top: calc(1.5rem);
+  }
 }
 
 hr {

@@ -1,5 +1,5 @@
 <template>
-  <main class="py-4">
+  <main>
     <div class="container">
       <div class="row">
         <div class="col-xl-8">
@@ -15,11 +15,16 @@
       </div>
     </div>
     <div class="px-4 my-5 text-center border-bottom">
+      <span class="badge text-bg-info">Literatuuronderzoek</span><span class="badge text-bg-info">Engels</span>
       <h2>The future is modular; how Framework Computer, Inc.<br> challenges tech ethics</h2>
       <h3 class="h5">An ethical analysis of Framework and their goal of repairability, upgradability,<br>
         sustainability, and their fight against e-waste and planned obsolescence.</h3>
       <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">This report addresses the environmental impact of electronic waste and low EU recycling rates. It spotlights Framework's sustainable electronics, like the modular Framework Laptop 13 and 16, advocating for repairability and upgradability. The 'right to repair' movement's significance and the need for a shift towards sustainability are emphasized. It also touches on the role of open-source tech in ethical tech practices.
+        <p class="lead mb-4">This report addresses the environmental impact of electronic waste and low EU recycling
+          rates. It spotlights Framework's sustainable electronics, like the modular Framework Laptop 13 and 16,
+          advocating for repairability and upgradability. The 'right to repair' movement's significance and the need for
+          a shift towards sustainability are emphasized. It also touches on the role of open-source tech in ethical tech
+          practices.
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
           <a class="btn btn-primary btn-lg px-4 me-sm-3"
@@ -42,6 +47,7 @@
     </div>
 
     <div class="px-4 my-5 text-center border-bottom">
+      <span class="badge text-bg-info">Literatuuronderzoek</span><span class="badge text-bg-info">Nederlands</span>
       <h2 class="display-4 fw-bold">Het gebruik van sociale media onder jongeren;</h2>
       <h3>In hoeverre heeft het gebruik van sociale media negatieve consequenties bij jongeren?</h3>
       <div class="col-lg-6 mx-auto">
@@ -74,9 +80,10 @@
 </template>
 
 <script lang="ts">
+import {defineComponent} from 'vue'
 import Sidebar from '@/Sidebar.vue'
 
-export default {
+export default defineComponent({
   name: 'Portfolio',
   components: {Sidebar},
   head() {
@@ -100,7 +107,7 @@ export default {
       ]
     }
   }
-}
+})
 </script>
 
 <style lang="scss" scoped>
@@ -110,5 +117,9 @@ export default {
 
 .cover img {
   box-shadow: inset 0 2px 0px #dcffa6, 0 2px 5px #000;
+}
+
+.badge {
+  margin-right: 1rem;
 }
 </style>

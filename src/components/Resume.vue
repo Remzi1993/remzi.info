@@ -1,5 +1,5 @@
 <template>
-  <main class="py-4">
+  <main>
     <div class="container">
       <div class="row d-print-none">
         <div class="col pb-4">
@@ -28,7 +28,7 @@
                 <strong>LinkedIn:</strong> <a
                   href="https://www.linkedin.com/in/remzicavdar" target="_blank">linkedin.com/in/remzicavdar</a><br>
                 <strong>GitHub:</strong> <a href="https://github.com/Remzi1993"
-                                                                         target="_blank">github.com/Remzi1993</a>
+                                            target="_blank">github.com/Remzi1993</a>
               </p>
             </div>
           </div>
@@ -42,7 +42,8 @@
           <h2 class="mt-3 mt-lg-4">Skills</h2>
           <p>HTML/CSS | JavaScript | React | Redis | Vue.js | Vite | PHP | WordPress | Java | JavaFX | Spring Boot | JPA
             | Hibernate | RESTful API | TypeScript | Node.js | C# | .NET | JSON | XML | MySQL | MariaDB | MongoDB
-            | Apache Maven | Apache server | DNS | Linux | Bash | Git | MVC | Agile/Scrum | SEO | Nederlands | Engels </p>
+            | Apache Maven | Apache server | DNS | Linux | Bash | Git | MVC | Agile/Scrum | SEO | Nederlands |
+            Engels </p>
 
           <h2 class="mt-3 mt-lg-4">Extra</h2>
           <h3>2019 - Codaisseur</h3>
@@ -92,7 +93,9 @@
 </template>
 
 <script lang="ts">
-export default {
+import {defineComponent} from 'vue'
+
+export default defineComponent({
   name: 'Resume',
   head() {
     return {
@@ -115,13 +118,14 @@ export default {
       ]
     }
   }
-}
+})
 </script>
 
 <style lang="scss" scoped>
 #info {
   margin: 0;
 }
+
 h1 {
   font-size: 2rem;
 }
