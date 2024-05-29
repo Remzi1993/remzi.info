@@ -1,7 +1,7 @@
 <template>
   <div class="topbar fixed-top d-print-none">
     <div class="container d-flex justify-content-center align-items-center">
-      <span>Op zoek naar een meeloopstage in de ICT</span>
+      <span>Op zoek naar een ICT meeloopstage</span>
       <a href="/portfolio" class="btn btn-sm btn-success">Check mijn portfolio</a>
     </div>
   </div>
