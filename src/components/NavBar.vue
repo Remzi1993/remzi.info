@@ -127,10 +127,11 @@ export default defineComponent({
 
 .topbar .container span {
   font-size: 0.8rem;
+  line-height: 0.8rem;
 }
 
 .topbar .container .btn {
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 
 .navbar {
