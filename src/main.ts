@@ -1,4 +1,5 @@
 import {createApp} from 'vue'
+import SimpleAnalytics from 'simple-analytics-vue'
 import {VueHeadMixin, createHead} from '@unhead/vue'
 import {createRouter, createWebHistory} from 'vue-router'
 import BootstrapPlugin from './bootstrap-plugin.ts'
@@ -37,4 +38,5 @@ createApp(App)
     .mixin(VueHeadMixin)
     .use(router)
     .use(BootstrapPlugin)
+    .use(SimpleAnalytics, { skip: process.env.NODE_ENV !== "production" })
     .mount('#app')
