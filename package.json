@@ -13,7 +13,6 @@
     "@unhead/vue": "^1.9.11",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
-    "simple-analytics-vue": "^3.0.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   },

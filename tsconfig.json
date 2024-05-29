@@ -20,9 +20,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": false,
-    "allowJs": true
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
     "src/**/*.ts",
