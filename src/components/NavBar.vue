@@ -167,4 +167,11 @@ export default defineComponent({
     padding-bottom: 5px;
   }
 }
+
+@media (max-width: 575.98px) {
+  .topbar .container span {
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+  }
+}
 </style>
