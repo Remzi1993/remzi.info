@@ -35,4 +35,9 @@ export default defineComponent({
 .lead {
   max-width: 650px;
 }
+@media (min-width: 576px) {
+  main {
+    padding-bottom: 200px;
+  }
+}
 </style>
