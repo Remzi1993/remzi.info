@@ -1,8 +1,8 @@
 <template>
   <div class="topbar fixed-top d-print-none">
     <div class="container d-flex justify-content-center align-items-center">
-      <span>Op zoek naar een ICT meeloopstage</span>
-      <a href="/portfolio" class="btn btn-sm btn-success">Check mijn portfolio</a>
+      <span>Op zoek naar een bijbaan</span>
+      <router-link class="btn btn-sm btn-success" to="/portfolio">Check mijn portfolio</router-link>
     </div>
   </div>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-body-tertiary d-print-none">

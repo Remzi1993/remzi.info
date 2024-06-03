@@ -1,3 +1,14 @@
+# Simple Analytics proxy - https://docs.simpleanalytics.com/proxy
+[[redirects]]
+from = "/proxy.js"
+to = "https://simpleanalyticsexternal.com/proxy.js?hostname=remzi.info&path=/simple"
+status = 200
+
+[[redirects]]
+from = "/simple/*"
+to = "https://queue.simpleanalyticscdn.com/:splat"
+status = 200
+
 # Redirects
 [[redirects]]
 from = "/assets/cv.pdf"
