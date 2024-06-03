@@ -100,7 +100,7 @@ export default defineComponent({
   components: {Sidebar},
   head() {
     return {
-      title: 'Home - Remzi Cavdar',
+      title: 'Remzi Cavdar',
       meta: [
         {
           name: 'description',
