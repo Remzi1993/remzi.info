@@ -3,21 +3,25 @@
 from = "https://www.remzi.info/*"
 to = "https://remzi.info/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "https://remzi.netlify.app/*"
 to = "https://remzi.info/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "https://cavdar.nl/*"
 to = "https://remzi.info/:splat"
 status = 301
+force = true
 
 [[redirects]]
 from = "https://www.cavdar.nl/*"
 to = "https://remzi.info/:splat"
 status = 301
+force = true
 
 # Simple Analytics proxy - https://docs.simpleanalytics.com/proxy
 [[redirects]]
