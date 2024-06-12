@@ -1,11 +1,5 @@
 # Redirect all requests to remzi.netlify.app, cavdar.nl, www.cavdar.nl, and www.remzi.info to remzi.info
 [[redirects]]
-from = "https://www.remzi.info/*"
-to = "https://remzi.info/:splat"
-status = 301
-force = true
-
-[[redirects]]
 from = "https://remzi.netlify.app/*"
 to = "https://remzi.info/:splat"
 status = 301
@@ -19,6 +13,12 @@ force = true
 
 [[redirects]]
 from = "https://www.cavdar.nl/*"
+to = "https://remzi.info/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.remzi.info/*"
 to = "https://remzi.info/:splat"
 status = 301
 force = true
