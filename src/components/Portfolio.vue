@@ -29,10 +29,10 @@
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
           <a class="btn btn-primary btn-lg px-4 me-sm-3"
              href="https://storage.remzi.info/assets/docs/The-future-is-modular-R.Cavdar-06-11-2023.pdf"
-             role="button" download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf">Download report</a>
+             download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf">Download report</a>
 
           <a class="btn btn-outline-secondary btn-lg px-4" href="https://doi.org/10.5281/zenodo.10159175"
-             role="button" target="_blank">DOI: 10.5281/zenodo.10159175</a>
+             target="_blank">DOI: 10.5281/zenodo.10159175</a>
         </div>
       </div>
       <div class="overflow-hidden cover" style="max-height: 30vh;">
@@ -60,10 +60,10 @@
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
           <a class="btn btn-primary btn-lg px-4 me-sm-3"
              href="https://storage.remzi.info/assets/docs/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
-             role="button" download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf">Download onderzoeksverslag</a>
+             download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf">Download onderzoeksverslag</a>
 
           <a class="btn btn-outline-secondary btn-lg px-4" href="https://doi.org/10.5281/zenodo.7647322"
-             role="button" target="_blank">DOI: 10.5281/zenodo.7647322</a>
+             target="_blank">DOI: 10.5281/zenodo.7647322</a>
         </div>
       </div>
       <div class="overflow-hidden" style="max-height: 30vh;">
