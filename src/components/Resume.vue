@@ -1,11 +1,37 @@
+<script setup lang="ts">
+import { useHead } from '@unhead/vue';
+
+useHead({
+  title: 'Curriculum vitae - Remzi Cavdar',
+  meta: [
+    {
+      name: 'description',
+      content: 'Curriculum vitae van Remzi Cavdar'
+    },
+    {
+      name: 'author',
+      content: 'Remzi Cavdar'
+    },
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://remzi.info/cv'
+    }
+  ]
+});
+</script>
+
 <template>
   <main>
     <div class="container">
       <div class="row d-print-none">
         <div class="col pb-4">
           <h1>Mijn cv <i class="bi bi-file-earmark-person-fill"></i></h1>
-          <p><a class="btn btn-primary" href="https://storage.remzi.info/assets/docs/Curriculum-vitae-R.Cavdar.pdf"
-                role="button" download="Curriculum-vitae–R.Cavdar.pdf">Liever een PDF?</a></p>
+          <p>
+            <a class="btn btn-primary" href="https://storage.remzi.info/assets/docs/Curriculum-vitae-R.Cavdar.pdf"
+               role="button" download="Curriculum-vitae–R.Cavdar.pdf">Liever een PDF?</a>
+          </p>
         </div>
       </div>
 
@@ -25,10 +51,8 @@
                 <strong>Woonplaats:</strong> Amsterdam<br>
                 <strong>Mobiel:</strong> <a href="tel:+31611719929">06 117 199 29</a><br>
                 <strong>E-mail:</strong> <a href="mailto:ict@remzi.info">ict@remzi.info</a><br>
-                <strong>LinkedIn:</strong> <a
-                  href="https://www.linkedin.com/in/remzicavdar" target="_blank">linkedin.com/in/remzicavdar</a><br>
-                <strong>GitHub:</strong> <a href="https://github.com/Remzi1993"
-                                            target="_blank">github.com/Remzi1993</a>
+                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/remzicavdar" target="_blank">linkedin.com/in/remzicavdar</a><br>
+                <strong>GitHub:</strong> <a href="https://github.com/Remzi1993" target="_blank">github.com/Remzi1993</a>
               </p>
             </div>
           </div>
@@ -40,10 +64,7 @@
           <h4 class="subtitle">MBO niveau 4 / Applicatie- en mediaontwikkeling</h4>
 
           <h2 class="mt-3 mt-lg-4">Skills</h2>
-          <p>HTML/CSS | JavaScript | React | Redis | Vue.js | Vite | PHP | WordPress | Java | JavaFX | Spring Boot | JPA
-            | Hibernate | RESTful API | TypeScript | Node.js | C# | .NET | JSON | XML | MySQL | MariaDB | MongoDB
-            | Apache Maven | Apache server | DNS | Linux | Bash | Git | MVC | Agile/Scrum | SEO | Nederlands |
-            Engels </p>
+          <p>HTML/CSS | JavaScript | React | Redis | Vue.js | Vite | PHP | WordPress | Java | JavaFX | Spring Boot | JPA | Hibernate | RESTful API | TypeScript | Node.js | C# | .NET | JSON | XML | MySQL | MariaDB | MongoDB | Apache Maven | Apache server | DNS | Linux | Bash | Git | MVC | Agile/Scrum | SEO | Nederlands | Engels</p>
 
           <h2 class="mt-3 mt-lg-4">Extra</h2>
           <h3>2019 - Codaisseur</h3>
@@ -91,35 +112,6 @@
     </div>
   </main>
 </template>
-
-<script lang="ts">
-import {defineComponent} from 'vue'
-
-export default defineComponent({
-  name: 'Resume',
-  head() {
-    return {
-      title: 'Curriculum vitae - Remzi Cavdar',
-      meta: [
-        {
-          name: 'description',
-          content: 'Curriculum vitae van Remzi Cavdar'
-        },
-        {
-          name: 'author',
-          content: 'Remzi Cavdar'
-        },
-      ],
-      link: [
-        {
-          name: 'canonical',
-          content: 'https://remzi.info/cv'
-        }
-      ]
-    }
-  }
-})
-</script>
 
 <style lang="scss" scoped>
 #info {

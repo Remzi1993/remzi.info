@@ -1,16 +1,14 @@
 import {createApp} from 'vue'
-import {VueHeadMixin, createHead} from '@unhead/vue'
 import {createRouter, createWebHistory} from 'vue-router'
-import BootstrapPlugin from './bootstrap-plugin.ts'
 import 'bootstrap-icons/font/bootstrap-icons.scss'
 import './main.scss'
+import 'bootstrap';
 import App from './App.vue'
 import Home from '@/Home.vue'
 import Resume from '@/Resume.vue'
 import Portfolio from '@/Portfolio.vue'
 import NotFound from '@/NotFound.vue'
-
-const head = createHead()
+import {createHead} from '@unhead/vue'
 
 // Routes
 const routes = [
@@ -33,8 +31,6 @@ const router = createRouter({
 })
 
 createApp(App)
-    .use(head)
-    .mixin(VueHeadMixin)
     .use(router)
-    .use(BootstrapPlugin)
+    .use(createHead())
     .mount('#app')

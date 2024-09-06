@@ -1,3 +1,6 @@
+<script setup lang="ts">
+</script>
+
 <template>
   <footer class="bg-body-tertiary text-center py-3 d-print-none">
     <div class="container">
@@ -26,14 +29,6 @@
     </div>
   </footer>
 </template>
-
-<script lang="ts">
-import {defineComponent} from 'vue'
-
-export default defineComponent({
-  name: "FooterComp"
-})
-</script>
 
 <style scoped lang="scss">
 footer {

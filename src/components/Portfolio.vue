@@ -1,9 +1,35 @@
+<script setup lang="ts">
+import {useHead} from '@unhead/vue'
+
+useHead({
+  title: 'Portfolio - Remzi Cavdar',
+  meta: [
+    {
+      name: 'description',
+      content: 'Ik heb veel projecten op GitHub staan. Alleen kan ik niet alle projecten en practica online zetten van de HvA vanwege het feit dat andere studenten dezelfde practica doen. Op aanvraag kan ik uiteraard wel de code laten zien en het project versturen. Hieronder zal ik mijn portfolio laten zien van projecten die ik wel online mag zetten.'
+    },
+    {
+      name: 'author',
+      content: 'Remzi Cavdar'
+    },
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://remzi.info/portfolio'
+    }
+  ]
+});
+</script>
+
 <template>
   <main>
     <div class="container">
       <div class="row">
         <div class="col-xl-8">
-          <h1>Mijn Portfolio <img src="../assets/img/emoji/rocket.webp" alt="🚀" width="50" height="50"></h1>
+          <h1>Mijn Portfolio
+            <img src="../assets/img/emoji/rocket.webp" alt="🚀" width="50" height="50">
+          </h1>
           <p>
             Ik heb veel projecten op <a href="https://github.com/Remzi1993" target="_blank">GitHub</a> staan. Alleen kan
             ik niet alle projecten en practica online zetten van de HvA vanwege het feit dat andere studenten dezelfde
@@ -78,37 +104,6 @@
     </div>
   </main>
 </template>
-
-<script lang="ts">
-import {defineComponent} from 'vue'
-import Sidebar from '@/Sidebar.vue'
-
-export default defineComponent({
-  name: 'Portfolio',
-  components: {Sidebar},
-  head() {
-    return {
-      title: 'Portfolio - Remzi Cavdar',
-      meta: [
-        {
-          name: 'description',
-          content: 'Ik heb veel projecten op GitHub staan. Alleen kan ik niet alle projecten en practica online zetten van de HvA vanwege het feit dat andere studenten dezelfde practica doen. Op aanvraag kan ik uiteraard wel de code laten zien en het project versturen. Hieronder zal ik mijn portfolio laten zien van projecten die ik wel online mag zetten.'
-        },
-        {
-          name: 'author',
-          content: 'Remzi Cavdar'
-        },
-      ],
-      link: [
-        {
-          name: 'canonical',
-          content: 'https://remzi.info/portfolio'
-        }
-      ]
-    }
-  }
-})
-</script>
 
 <style lang="scss" scoped>
 .cover-image {

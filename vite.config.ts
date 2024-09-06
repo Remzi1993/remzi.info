@@ -4,10 +4,17 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [vue()],
-    resolve: {
-        alias: {
-            '@': path.resolve(__dirname, 'src/components'),
-        }
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src/components'),
+    }
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        quietDeps: true, // Suppresses warnings from dependencies
+      },
     },
+  },
 })

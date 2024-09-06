@@ -1,3 +1,28 @@
+<script setup lang="ts">
+import { useHead } from '@unhead/vue';
+import Sidebar from '@/Sidebar.vue';
+
+useHead({
+  title: 'Remzi Cavdar',
+  meta: [
+    {
+      name: 'description',
+      content: 'Mijn naam is Remzi Cavdar en ik studeer HBO-ICT Software Engineering aan de Hogeschool van Amsterdam (HvA).'
+    },
+    {
+      name: 'author',
+      content: 'Remzi Cavdar'
+    },
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://remzi.info'
+    }
+  ]
+});
+</script>
+
 <template>
   <main>
     <div class="container">
@@ -81,8 +106,7 @@
           </p>
           <p>
             <strong><i class="bi bi-phone"></i> </strong> <a href="tel:+31611719929">06 117 199 29</a><br>
-            <strong><i class="bi bi-envelope-at"></i> </strong> <a
-              href="mailto:ict@remzi.info">ict@remzi.info</a><br>
+            <strong><i class="bi bi-envelope-at"></i> </strong> <a href="mailto:ict@remzi.info">ict@remzi.info</a><br>
           </p>
         </div>
         <sidebar></sidebar>
@@ -90,37 +114,6 @@
     </div>
   </main>
 </template>
-
-<script lang="ts">
-import {defineComponent} from 'vue'
-import Sidebar from '@/Sidebar.vue'
-
-export default defineComponent({
-  name: 'Home',
-  components: {Sidebar},
-  head() {
-    return {
-      title: 'Remzi Cavdar',
-      meta: [
-        {
-          name: 'description',
-          content: 'Mijn naam is Remzi Cavdar en ik studeer HBO-ICT Software Engineering aan de Hogeschool van Amsterdam (HvA).'
-        },
-        {
-          name: 'author',
-          content: 'Remzi Cavdar'
-        },
-      ],
-      link: [
-        {
-          name: 'canonical',
-          content: 'https://remzi.info'
-        }
-      ]
-    }
-  }
-})
-</script>
 
 <style lang="scss" scoped>
 svg {

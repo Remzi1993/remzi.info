@@ -1,3 +1,60 @@
+<script setup lang="ts">
+import {ref, onMounted, onBeforeUnmount, watch} from 'vue';
+import {useRoute, useRouter} from 'vue-router';
+import {Dropdown, Collapse} from 'bootstrap';
+
+const isDropdownActive = ref(false);
+const dropdownMenu = ref<HTMLElement | null>(null);
+const bsCollapse = ref<Collapse | null>(null);
+
+const route = useRoute();
+const router = useRouter();
+
+const closeDropdown = () => {
+  if (!dropdownMenu.value) return;
+  const dropdownElement = dropdownMenu.value.querySelector('.dropdown-toggle');
+  if (dropdownElement) {
+    const bsDropdownInstance = new Dropdown(dropdownElement);
+    bsDropdownInstance.hide();
+  }
+};
+
+watch(
+    () => route.path,
+    (to) => {
+      const dropdownUrlRoutePattern = /^\/sublinks\//;
+      isDropdownActive.value = dropdownUrlRoutePattern.test(to);
+    },
+    {immediate: true}
+);
+
+const unwatchRouter = router.afterEach(() => {
+  closeDropdown();
+});
+
+onMounted(() => {
+  const menuToggle = document.querySelector('#navbarCollapse') as HTMLElement;
+  if (menuToggle) {
+    bsCollapse.value = new Collapse(menuToggle, {toggle: false});
+    const navLinks = document.querySelectorAll('.navbar-brand, .nav-item:not(.dropdown), .dropdown-item');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 992 && menuToggle.classList.contains('show')) {
+          bsCollapse.value?.hide();
+        }
+      });
+    });
+  } else {
+    console.error('Element #navbarCollapse not found');
+  }
+});
+
+onBeforeUnmount(() => {
+  if (unwatchRouter) unwatchRouter();
+});
+</script>
+
 <template>
   <div class="topbar fixed-top d-print-none">
     <div class="container d-flex justify-content-center align-items-center">
@@ -35,77 +92,6 @@
     </div>
   </nav>
 </template>
-
-<script lang="ts">
-import {defineComponent} from 'vue'
-import {Dropdown, Collapse} from 'bootstrap'
-
-export default defineComponent({
-  name: 'NavBar',
-  data() {
-    return {
-      isDropdownActive: false
-    };
-  },
-  watch: {
-    '$route': {
-      immediate: true,
-      handler: function (to) {
-        const dropdownUrlRoutePattern = /^\/sublinks\//; // This matches any path that starts with '/sublinks/'
-        this.isDropdownActive = dropdownUrlRoutePattern.test(to.path);
-      }
-    }
-  },
-  created() {
-    // Close the dropdown menu when route changes
-    // @ts-ignore
-    this.unwatchRouter = this.$router.afterEach(() => {
-      this.closeDropdown();
-    });
-  },
-  beforeUnmount() {
-    // Cleanup the router watch
-    // @ts-ignore
-    if (this.unwatchRouter) {
-      // @ts-ignore
-      this.unwatchRouter();
-    }
-  },
-  mounted() {
-    const menuToggle = document.querySelector('#navbarCollapse')
-    if (menuToggle) {
-      // @ts-ignore
-      const bsCollapse = new Collapse(menuToggle, {toggle: false}); // Initialize without toggling
-      const navLinks = document.querySelectorAll('.navbar-brand, .nav-item:not(.dropdown), .dropdown-item');
-
-      navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-          // Check if the viewport width is less than or equal to 992px and if the menu is open
-          // @ts-ignore
-          if (window.innerWidth <= 992 && menuToggle.classList.contains('show')) {
-            bsCollapse.hide();
-          }
-        });
-      });
-    } else {
-      console.error('Element #navbarCollapse not found');
-    }
-  },
-  methods: {
-    closeDropdown() {
-      if (!this.$refs.dropdownMenu) {
-        return;
-      }
-      // @ts-ignore
-      const dropdownElement = this.$refs.dropdownMenu.querySelector('.dropdown-toggle');
-      if (dropdownElement) {
-        const bsDropdownInstance = new Dropdown(dropdownElement);
-        bsDropdownInstance.hide();
-      }
-    }
-  }
-})
-</script>
 
 <style lang="scss" scoped>
 .topbar {
