@@ -1,47 +1,55 @@
 <script setup lang="ts">
-import {ref, onMounted, onBeforeUnmount, watch} from 'vue';
-import {useRoute, useRouter} from 'vue-router';
-import {Dropdown, Collapse} from 'bootstrap';
+import { shallowRef, onMounted, onBeforeUnmount, watch, nextTick } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
+import { Dropdown, Collapse } from 'bootstrap';
+import { useTemplateRef } from 'vue';
 
-const isDropdownActive = ref(false);
-const dropdownMenu = ref<HTMLElement | null>(null);
-const bsCollapse = ref<Collapse | null>(null);
+const isDropdownActive = shallowRef(false);
+const dropdownMenu = useTemplateRef<HTMLElement | null>('dropdownMenu');
+const bsCollapse = useTemplateRef<HTMLElement | null>('navbarCollapse');
 
 const route = useRoute();
 const router = useRouter();
 
+// Close dropdown function
 const closeDropdown = () => {
   if (!dropdownMenu.value) return;
   const dropdownElement = dropdownMenu.value.querySelector('.dropdown-toggle');
   if (dropdownElement) {
-    const bsDropdownInstance = new Dropdown(dropdownElement);
+    const bsDropdownInstance = Dropdown.getOrCreateInstance(dropdownElement);
     bsDropdownInstance.hide();
   }
 };
 
+// Watch for route changes to determine dropdown visibility
 watch(
     () => route.path,
     (to) => {
       const dropdownUrlRoutePattern = /^\/sublinks\//;
       isDropdownActive.value = dropdownUrlRoutePattern.test(to);
     },
-    {immediate: true}
+    { immediate: true }
 );
 
+// Use afterEach hook for route navigation
 const unwatchRouter = router.afterEach(() => {
   closeDropdown();
 });
 
-onMounted(() => {
-  const menuToggle = document.querySelector('#navbarCollapse') as HTMLElement;
+onMounted(async () => {
+  await nextTick(); // Ensure DOM is fully updated
+
+  const menuToggle = bsCollapse.value;
+
   if (menuToggle) {
-    bsCollapse.value = new Collapse(menuToggle, {toggle: false});
+    const bsCollapseInstance = Collapse.getOrCreateInstance(menuToggle, { toggle: false });
+
     const navLinks = document.querySelectorAll('.navbar-brand, .nav-item:not(.dropdown), .dropdown-item');
 
     navLinks.forEach(link => {
       link.addEventListener('click', () => {
         if (window.innerWidth <= 992 && menuToggle.classList.contains('show')) {
-          bsCollapse.value?.hide();
+          bsCollapseInstance.hide();
         }
       });
     });
@@ -71,7 +79,7 @@ onBeforeUnmount(() => {
               aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="collapse navbar-collapse" id="navbarCollapse" ref="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
             <router-link class="nav-link" to="/">Home</router-link>

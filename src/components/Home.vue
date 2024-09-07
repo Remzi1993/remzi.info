@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useHead } from '@unhead/vue';
+import {useHead} from '@unhead/vue';
 import Sidebar from '@/Sidebar.vue';
 
 useHead({
