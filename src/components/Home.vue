@@ -97,8 +97,7 @@ useHead({
 
           <h2>Contact opnemen <span class="emoji">📩</span></h2>
           <p>
-            Op dit moment ben ik op zoek naar een meeloopstage voor september 2024 voor mijn opleiding HBO-ICT
-            Software Engineering.
+            Ik ben op zoek naar een bijbaan naast mijn opleiding HBO-ICT Software Engineering.
           </p>
           <p>
             Mocht u op zoek zijn naar een leergierige stagiair die bereid is hard te werken, dan sta ik open voor een
