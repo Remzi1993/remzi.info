@@ -7,11 +7,6 @@
 $yellow: #FFD933;
 $red: #FC4442;
 
-.navbar {
-  --bs-navbar-color: #FFD933;
-  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.3);
-}
-
 main {
   padding-top: calc(1.5rem + 97px);
 }
@@ -22,16 +17,55 @@ main {
   }
 }
 
-hr {
-  border: 1px solid #8785854a;
-}
-
 .yellow {
   color: $yellow;
 }
 
 .red {
   color: $red;
+}
+
+.navbar {
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.3);
+}
+
+hr {
+  border: 1px solid #8785854a;
+}
+
+@include color-mode(dark) {
+  .navbar {
+    --bs-navbar-color: #FFD933;
+  }
+
+  .resume {
+    #full-name {
+      color: white;
+    }
+    h2 {
+      color: #fc4442;
+    }
+
+    .subtitle {
+      color: #FFD933;
+    }
+  }
+}
+
+@include color-mode(light) {
+  .navbar {
+    --bs-navbar-color: #B22222;
+  }
+
+  .resume {
+    h2 {
+      color: #040084;
+    }
+
+    .subtitle {
+      color: #1874D2;
+    }
+  }
 }
 
 .rating {

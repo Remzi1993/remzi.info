@@ -44,7 +44,7 @@ useHead({
               <img src="../assets/img/profile-photo.jpg" alt="Profile image">
             </div>
             <div class="col-md-8">
-              <h2 class="mt-4 mt-md-0" style="color: white;">Remzi Cavdar</h2>
+              <h2 id="full-name" class="mt-4 mt-md-0">Remzi Cavdar</h2>
               <h3 class="subtitle">Software Engineer i.o.</h3>
               <p id="info">
                 <strong>Geboortedatum:</strong> 11-06-1993<br>
@@ -56,6 +56,12 @@ useHead({
               </p>
             </div>
           </div>
+          <h2 class="mt-3 mt-lg-4">Profiel</h2>
+          <p>
+            Ik ben een enthousiaste en leergierige software engineer in opleiding. Ik ben altijd op zoek naar nieuwe
+            uitdagingen en kansen om mijn vaardigheden te verbeteren.
+            Analytisch en probleemoplossend denken zijn mijn sterke punten.
+          </p>
 
           <h2 class="mt-3 mt-lg-4">Opleiding</h2>
           <h3>2021 - HEDEN - Hogeschool van Amsterdam</h3>
@@ -107,6 +113,15 @@ useHead({
             <li>Verzorgen van webhosting voor cliënten</li>
             <li>Adviseren over verschillende ICT-vraagstukken.</li>
           </ul>
+
+          <h2 class="mt-3 mt-lg-4">Hobby's</h2>
+          <p>
+            Allerlei bordspellen (Schaken, Dammen, Monopoly, Stratego, Risk, De
+            Kolonisten van Catan) | Allerlei kaartspellen (Pesten, Koehandel, Uno,
+            Poker) | Allerlei videogames (FIFA, GTA, Call of Duty, Far Cry, Total
+            War, Sniper Elite, Age of Empires, Stronghold, Zombie Army, Red
+            Dead Redemption, Assassin's Greed) | Allerlei films en series | Muziek
+          </p>
         </div>
       </div>
     </div>
@@ -124,7 +139,6 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  color: #fc4442;
 }
 
 h3 {
@@ -137,7 +151,6 @@ h4 {
 
 .subtitle {
   margin-top: -0.6rem;
-  color: #FFD933;
 }
 
 ul, p, .rating, .subtitle {

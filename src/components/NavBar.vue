@@ -70,7 +70,7 @@ onBeforeUnmount(() => {
       <router-link class="btn btn-sm btn-success" to="/portfolio">Check mijn portfolio</router-link>
     </div>
   </div>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-body-tertiary d-print-none">
+  <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary d-print-none">
     <div class="container">
       <router-link class="navbar-brand" to="/">
         <img src="https://storage.remzi.info/assets/images/logo.png" alt="Logo">
