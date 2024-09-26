@@ -35,7 +35,9 @@ hr {
 
 @include color-mode(dark) {
   .navbar {
-    --bs-navbar-color: #FFD933;
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color: #FFD933;
+    --bs-navbar-active-color: #FFD933;
   }
 
   .resume {
