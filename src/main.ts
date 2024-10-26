@@ -2,12 +2,12 @@ import {createApp} from 'vue'
 import {createRouter, createWebHistory} from 'vue-router'
 import 'bootstrap-icons/font/bootstrap-icons.scss'
 import './main.scss'
-import 'bootstrap';
+import 'bootstrap'
 import App from './App.vue'
-import Home from '@/Home.vue'
-import Resume from '@/Resume.vue'
-import Portfolio from '@/Portfolio.vue'
-import NotFound from '@/NotFound.vue'
+import Home from './components/Home.vue'
+import Resume from './components/Resume.vue'
+import Portfolio from './components/Portfolio.vue'
+import NotFound from './components/NotFound.vue'
 import {createHead} from '@unhead/vue'
 
 // Routes

@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { shallowRef, onMounted, onBeforeUnmount, watch, nextTick } from 'vue';
-import { useRoute, useRouter } from 'vue-router';
-import { Dropdown, Collapse } from 'bootstrap';
-import { useTemplateRef } from 'vue';
+import {shallowRef, onMounted, onBeforeUnmount, watch, nextTick} from 'vue';
+import {useRoute, useRouter} from 'vue-router';
+import {Dropdown, Collapse} from 'bootstrap';
+import {useTemplateRef} from 'vue';
 
 const isDropdownActive = shallowRef(false);
 const dropdownMenu = useTemplateRef<HTMLElement | null>('dropdownMenu');
@@ -28,7 +28,7 @@ watch(
       const dropdownUrlRoutePattern = /^\/sublinks\//;
       isDropdownActive.value = dropdownUrlRoutePattern.test(to);
     },
-    { immediate: true }
+    {immediate: true}
 );
 
 // Use afterEach hook for route navigation
@@ -42,7 +42,7 @@ onMounted(async () => {
   const menuToggle = bsCollapse.value;
 
   if (menuToggle) {
-    const bsCollapseInstance = Collapse.getOrCreateInstance(menuToggle, { toggle: false });
+    const bsCollapseInstance = Collapse.getOrCreateInstance(menuToggle, {toggle: false});
 
     const navLinks = document.querySelectorAll('.navbar-brand, .nav-item:not(.dropdown), .dropdown-item');
 

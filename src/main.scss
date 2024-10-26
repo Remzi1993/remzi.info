@@ -1,5 +1,3 @@
-@import "bootstrap/scss/bootstrap.scss";
-
 .emoji {
   font-family: 'Noto Color Emoji', sans-serif;
 }
@@ -32,6 +30,8 @@ main {
 hr {
   border: 1px solid #8785854a;
 }
+
+@import "bootstrap/scss/bootstrap.scss";
 
 @include color-mode(dark) {
   .navbar {
@@ -67,38 +67,5 @@ hr {
     .subtitle {
       color: #1874D2;
     }
-  }
-}
-
-.rating {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  span {
-    margin-right: 10px;
-  }
-
-  .stars {
-    display: flex;
-    direction: rtl; /* Right-to-left for correct star selection */
-    user-select: none;
-  }
-
-  .stars > input {
-    display: none;
-  }
-
-  .stars > label {
-    color: #555;
-    padding: 0 5px;
-    &:before {
-      content: "☆";
-    }
-  }
-
-  .stars > input:checked ~ label:before {
-    content: "★";
-    color: #FFD700;
   }
 }
