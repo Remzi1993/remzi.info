@@ -1,4 +1,19 @@
 <script setup lang="ts">
+import {useHead} from '@unhead/vue';
+
+useHead({
+  title: '404 pagina niet gevonden - Remzi Cavdar',
+  meta: [
+    {
+      name: 'description',
+      content: '404 pagina niet gevonden - Remzi Cavdar'
+    },
+    {
+      name: 'author',
+      content: 'Remzi Cavdar'
+    },
+  ]
+});
 </script>
 
 <template>

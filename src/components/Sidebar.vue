@@ -1,6 +1,3 @@
-<script setup lang="ts">
-</script>
-
 <template>
   <div class="col-lg-3 ms-auto">
     <div class="sticky-sidebar">

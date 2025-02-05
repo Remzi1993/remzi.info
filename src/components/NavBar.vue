@@ -64,12 +64,6 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="topbar fixed-top d-print-none">
-    <div class="container d-flex justify-content-center align-items-center">
-      <span>Op zoek naar een bijbaan</span>
-      <router-link class="btn btn-sm btn-success" to="/portfolio">Check mijn portfolio</router-link>
-    </div>
-  </div>
   <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary d-print-none">
     <div class="container">
       <router-link class="navbar-brand" to="/">
@@ -102,32 +96,6 @@ onBeforeUnmount(() => {
 </template>
 
 <style lang="scss" scoped>
-.topbar {
-  background-color: #B22222;
-  color: white;
-  padding: 5px 0;
-  z-index: 2;
-}
-
-.topbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.topbar .container > *:not(:last-child) {
-  margin-right: 1rem;
-}
-
-.topbar .container span {
-  font-size: 0.8rem;
-  line-height: 0.8rem;
-}
-
-.topbar .container .btn {
-  font-size: 0.8rem;
-}
-
 .navbar {
   top: 37px;
 }
@@ -159,13 +127,6 @@ onBeforeUnmount(() => {
   }
   .navbar-collapse .d-flex {
     padding-bottom: 5px;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .topbar .container span {
-    font-size: 0.7rem;
-    line-height: 0.7rem;
   }
 }
 </style>
