@@ -24,8 +24,15 @@
         <p>
           <strong><i class="bi bi-linkedin"></i> LinkedIn:</strong> <a href="https://www.linkedin.com/in/remzicavdar"
                                                                        target="_blank">linkedin.com/in/remzicavdar</a><br>
-          <strong><i class="bi bi-github"></i> GitHub:</strong> <a href="https://github.com/Remzi1993" target="_blank">github.com/Remzi1993</a>
+          <strong><i class="bi bi-github"></i> GitHub:</strong> <a href="https://github.com/Remzi1993"
+                                                                   target="_blank">github.com/Remzi1993</a><br>
+          <strong><i class="bi bi-mastodon"></i> Mastodon:</strong> <a rel="me" href="https://mastodon.social/@Remzi1993"
+                                                             target="_blank">mastodon.social/@Remzi1993</a>
         </p>
+
+
+
+
         <p>
           <a class="btn btn-primary" href="https://storage.remzi.info/assets/docs/Curriculum-vitae-R.Cavdar.pdf"
              target="_blank" role="button" download="Curriculum-vitae–R.Cavdar.pdf">Download cv</a>
@@ -68,3 +75,5 @@
   }
 }
 </style>
+<script setup lang="ts">
+</script>

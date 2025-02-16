@@ -12,6 +12,10 @@ useHead({
       name: 'author',
       content: 'Remzi Cavdar'
     },
+    {
+      name: 'fediverse:creator',
+      content: '@Remzi1993@mastodon.social'
+    },
   ]
 });
 </script>
