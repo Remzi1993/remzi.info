@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "@unhead/vue": "^1.11.19",
+    "@unhead/vue": "^1.11.20",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "vue": "^3.5.13",
@@ -18,12 +18,12 @@
   },
   "devDependencies": {
     "@types/bootstrap": "^5.2.10",
-    "@types/node": "^22.13.4",
+    "@types/node": "^22.13.9",
     "@vitejs/plugin-vue": "^5.2.1",
-    "sass-embedded": "^1.85.0",
+    "sass-embedded": "^1.85.1",
     "sass-loader": "^16.0.5",
-    "typescript": "^5.7.3",
-    "vite": "^6.1.1",
-    "vue-tsc": "^2.2.2"
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.8"
   }
 }

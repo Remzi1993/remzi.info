@@ -1,3 +1,5 @@
+@use "bootstrap/scss/bootstrap.scss" as bootstrap;
+
 ::selection {
   color: white;
   background: #0044ff;
@@ -36,9 +38,7 @@ hr {
   border: 1px solid #8785854a;
 }
 
-@import "bootstrap/scss/bootstrap.scss";
-
-@include color-mode(dark) {
+@include bootstrap.color-mode(dark) {
   .navbar {
     --bs-navbar-color: white;
     --bs-navbar-hover-color: #FFD933;
@@ -59,7 +59,7 @@ hr {
   }
 }
 
-@include color-mode(light) {
+@include bootstrap.color-mode(light) {
   .navbar {
     --bs-navbar-color: #B22222;
   }
