@@ -2,11 +2,11 @@
 import {useHead} from '@unhead/vue';
 
 useHead({
-  title: 'Curriculum vitae - Remzi Cavdar',
+  title: 'Curriculum vitae - Remzi Cavdar - Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻',
   meta: [
     {
       name: 'description',
-      content: 'Curriculum vitae van Remzi Cavdar'
+      content: 'Curriculum vitae van Remzi Cavdar - Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻'
     },
     {
       name: 'author',

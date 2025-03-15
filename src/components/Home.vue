@@ -3,11 +3,11 @@ import {useHead} from '@unhead/vue'
 import Sidebar from './Sidebar.vue'
 
 useHead({
-  title: 'Remzi Cavdar',
+  title: 'Remzi Cavdar - Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻',
   meta: [
     {
       name: 'description',
-      content: 'Mijn naam is Remzi Cavdar en ik studeer HBO-ICT Software Engineering aan de Hogeschool van Amsterdam (HvA).'
+      content: 'Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻 Mijn naam is Remzi Cavdar en ik studeer HBO-ICT Software Engineering aan de Hogeschool van Amsterdam (HvA).'
     },
     {
       name: 'author',

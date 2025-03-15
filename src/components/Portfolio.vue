@@ -2,7 +2,7 @@
 import {useHead} from '@unhead/vue'
 
 useHead({
-  title: 'Portfolio - Remzi Cavdar',
+  title: 'Portfolio - Remzi Cavdar - Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻',
   meta: [
     {
       name: 'description',
