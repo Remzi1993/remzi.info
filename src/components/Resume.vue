@@ -91,6 +91,15 @@ useHead({
         </div>
         <div class="col-md-6">
           <h2 class="mt-3 mt-md-0">Werkervaring</h2>
+          <h3>2025 - Nationale Politie</h3>
+          <h4 class="subtitle">Stagiair softwareontwikkelaar</h4>
+          <ul>
+            <li>Uitvoeren van onderzoek naar processen en vraagstukken in het belang van de politie</li>
+            <li>Analyseren van infrastructuur en softwarearchitectuur</li>
+            <li>Bedenken van innovatieve IT-oplossingen in overleg met stakeholders</li>
+            <li>Ontwikkelen en testen van software</li>
+          </ul>
+
           <h3>2019 - Lead Me</h3>
           <h4 class="subtitle">WordPress Developer / Systeembeheerder</h4>
           <ul>

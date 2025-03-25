@@ -8,7 +8,7 @@ import Home from './components/Home.vue'
 import Resume from './components/Resume.vue'
 import Portfolio from './components/Portfolio.vue'
 import NotFound from './components/NotFound.vue'
-import {createHead} from '@unhead/vue'
+import {createHead} from '@unhead/vue/client'
 
 // Routes
 const routes = [
