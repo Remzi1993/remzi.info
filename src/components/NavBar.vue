@@ -96,9 +96,9 @@ onBeforeUnmount(() => {
 </template>
 
 <style lang="scss" scoped>
-.navbar {
-  top: 37px;
-}
+//.navbar {
+//  top: 37px;
+//}
 
 .navbar-brand img {
   max-width: 30px;

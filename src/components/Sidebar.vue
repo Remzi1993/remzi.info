@@ -58,7 +58,8 @@
 @media (min-width: 992px) {
   .sticky-sidebar {
     position: fixed;
-    top: 97px;
+    //top: 97px;
+    top: 60px;
     padding-top: 1.5rem;
   }
 }
