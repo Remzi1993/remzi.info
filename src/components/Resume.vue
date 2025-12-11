@@ -135,7 +135,7 @@ useHead({
             Kolonisten van Catan) | Allerlei kaartspellen (Pesten, Koehandel, Uno,
             Poker) | Allerlei videogames (FIFA, GTA, Call of Duty, Far Cry, Total
             War, Sniper Elite, Age of Empires, Stronghold, Zombie Army, Red
-            Dead Redemption, Assassin's Greed) | Allerlei films en series | Muziek
+            Dead Redemption, Assassin's Creed) | Allerlei films en series | Muziek
           </p>
         </div>
       </div>
