@@ -13,17 +13,17 @@
     "@unhead/vue": "^2.0.19",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
-    "vue": "^3.5.22",
+    "vue": "^3.5.25",
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
     "@types/bootstrap": "^5.2.10",
-    "@types/node": "^24.9.1",
-    "@vitejs/plugin-vue": "^6.0.1",
-    "sass-embedded": "^1.93.2",
+    "@types/node": "^25.0.0",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "sass-embedded": "^1.96.0",
     "sass-loader": "^16.0.6",
     "typescript": "^5.9.3",
     "vite": "npm:rolldown-vite@latest",
-    "vue-tsc": "^3.1.2"
+    "vue-tsc": "^3.1.8"
   }
 }
