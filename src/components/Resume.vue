@@ -33,7 +33,7 @@ useHead({
         <div class="col pb-4">
           <h1>Mijn cv <i class="bi bi-file-earmark-person-fill"></i></h1>
           <p>
-            <a class="btn btn-primary" href="https://storage.remzi.info/assets/docs/Curriculum-vitae-R.Cavdar.pdf"
+            <a class="btn btn-primary" href="https://storage.remzi.info/docs/Curriculum-vitae-R.Cavdar.pdf"
                role="button" download="Curriculum-vitae–R.Cavdar.pdf">Liever een PDF?</a>
           </p>
         </div>

@@ -58,7 +58,7 @@ useHead({
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
           <a class="btn btn-primary btn-lg px-4 me-sm-3"
-             href="https://storage.remzi.info/assets/docs/The-future-is-modular-R.Cavdar-06-11-2023.pdf"
+             href="https://storage.remzi.info/docs/The-future-is-modular-R.Cavdar-06-11-2023.pdf"
              download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf" target="_blank">Download report</a>
 
           <a class="btn btn-outline-secondary btn-lg px-4" href="https://doi.org/10.5281/zenodo.10159175"
@@ -67,7 +67,7 @@ useHead({
       </div>
       <div class="overflow-hidden cover" style="max-height: 30vh;">
         <div class="container px-5">
-          <a href="https://storage.remzi.info/assets/docs/The-future-is-modular-R.Cavdar-06-11-2023.pdf"
+          <a href="https://storage.remzi.info/docs/The-future-is-modular-R.Cavdar-06-11-2023.pdf"
              download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf" target="_blank">
             <img src="../assets/img/cover2.png" class="img-fluid border rounded-3 mb-4 cover-image"
                  alt="Cover image of the research report" loading="lazy">
@@ -89,7 +89,7 @@ useHead({
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
           <a class="btn btn-primary btn-lg px-4 me-sm-3"
-             href="https://storage.remzi.info/assets/docs/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
+             href="https://storage.remzi.info/docs/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
              download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf" target="_blank">Download onderzoeksverslag</a>
 
           <a class="btn btn-outline-secondary btn-lg px-4" href="https://doi.org/10.5281/zenodo.7647322"
@@ -98,7 +98,7 @@ useHead({
       </div>
       <div class="overflow-hidden" style="max-height: 30vh;">
         <div class="container px-5">
-          <a href="https://storage.remzi.info/assets/docs/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
+          <a href="https://storage.remzi.info/docs/Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf"
              download="Onderzoeksverslag-van-R.Cavdar-20-01-2023.pdf" target="_blank">
             <img src="../assets/img/cover.png" class="img-fluid border rounded-3 shadow-lg mb-4 cover-image"
                  alt="Cover image of the research report" loading="lazy">

@@ -67,7 +67,7 @@ onBeforeUnmount(() => {
   <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary d-print-none">
     <div class="container">
       <router-link class="navbar-brand" to="/">
-        <img src="https://storage.remzi.info/assets/images/logo.png" alt="Logo">
+        <img src="https://storage.remzi.info/images/logo.png" alt="Logo">
       </router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
               aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
