@@ -86,7 +86,7 @@ onBeforeUnmount(() => {
           </li>
         </ul>
         <div class="d-flex">
-          <div>Contact opnemen:</div>
+          <div>Contact:</div>
           <div><i class="bi bi-envelope-at"></i> <a href="mailto:ict@remzi.info">ict@remzi.info</a></div>
           <div><i class="bi bi-phone"></i> <a href="tel:+31611719929">06 117 199 29</a></div>
         </div>
