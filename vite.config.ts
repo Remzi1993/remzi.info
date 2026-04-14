@@ -1,14 +1,20 @@
-import {defineConfig} from 'vite'
+import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
   css: {
     preprocessorOptions: {
       scss: {
-        api: 'modern-compiler',
-        quietDeps: true, // Suppresses warnings from dependencies
+        quietDeps: true,
+      },
+    },
+  },
+  build: {
+    cssCodeSplit: false,
+    rolldownOptions: {
+      output: {
+        codeSplitting: false,
       },
     },
   },
