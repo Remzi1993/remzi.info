@@ -2,7 +2,7 @@
 import {useHead} from '@unhead/vue'
 
 useHead({
-  title: 'Portfolio - Remzi Cavdar - Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻',
+  title: 'Portfolio - Remzi Çavdar - Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻',
   meta: [
     {
       name: 'description',
@@ -10,7 +10,7 @@ useHead({
     },
     {
       name: 'author',
-      content: 'Remzi Cavdar'
+      content: 'Remzi Çavdar'
     },
     {
       name: 'fediverse:creator',

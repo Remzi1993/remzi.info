@@ -3,15 +3,15 @@ import {useHead} from '@unhead/vue'
 import Sidebar from './Sidebar.vue'
 
 useHead({
-  title: 'Remzi Cavdar - Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻',
+  title: 'Remzi Çavdar - Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻',
   meta: [
     {
       name: 'description',
-      content: 'Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻 Mijn naam is Remzi Cavdar en ik studeer HBO-ICT Software Engineering aan de Hogeschool van Amsterdam (HvA).'
+      content: 'Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻 Mijn naam is Remzi Çavdar en ik studeer HBO-ICT Software Engineering aan de Hogeschool van Amsterdam (HvA).'
     },
     {
       name: 'author',
-      content: 'Remzi Cavdar'
+      content: 'Remzi Çavdar'
     },
     {
       name: 'fediverse:creator',
@@ -34,7 +34,7 @@ useHead({
         <div class="col-lg-8">
           <h1>Wie ben ik? <span class="emoji">🚀</span></h1>
           <p>
-            Mijn naam is Remzi Cavdar en ik studeer HBO-ICT software engineering aan de Hogeschool van Amsterdam.
+            Mijn naam is Remzi Çavdar en ik studeer HBO-ICT software engineering aan de Hogeschool van Amsterdam.
             Ik heb ervaring met het ontwikkelen van verschillende soorten websites, webshops en webapplicaties.
             Daarbij heb ik ook ervaring met Java, JavaFX en Spring Boot.
           </p>

@@ -4,7 +4,7 @@
       <div class="sidebar-container">
         <h3>Mijn visitekaartje <i class="bi bi-person-lines-fill"></i></h3>
         <p>
-          <strong><i class="bi bi-person"></i> Naam:</strong> Remzi Cavdar<br>
+          <strong><i class="bi bi-person"></i> Naam:</strong> Remzi Çavdar<br>
           <strong><i class="bi bi-house"></i> Woonplaats:</strong> Amsterdam<br>
           <strong><i class="bi bi-phone"></i> Mobiel:</strong> <a href="tel:+31611719929">06 117 199 29</a><br>
           <strong><i class="bi bi-envelope-at"></i> E-mail:</strong> <a

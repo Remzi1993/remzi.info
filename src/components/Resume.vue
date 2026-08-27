@@ -2,15 +2,15 @@
 import {useHead} from '@unhead/vue';
 
 useHead({
-  title: 'Curriculum vitae - Remzi Cavdar - Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻',
+  title: 'Curriculum vitae - Remzi Çavdar - Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻',
   meta: [
     {
       name: 'description',
-      content: 'Curriculum vitae van Remzi Cavdar - Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻'
+      content: 'Curriculum vitae van Remzi Çavdar - Software Engineer 🚀 | Hogeschool van Amsterdam 🎓 | HBO-ICT Software Engineering 💻'
     },
     {
       name: 'author',
-      content: 'Remzi Cavdar'
+      content: 'Remzi Çavdar'
     },
     {
       name: 'fediverse:creator',
@@ -48,7 +48,7 @@ useHead({
               <img src="../assets/img/profile-photo.jpg" alt="Profile image">
             </div>
             <div class="col-md-8">
-              <h2 id="full-name" class="mt-4 mt-md-0">Remzi Cavdar</h2>
+              <h2 id="full-name" class="mt-4 mt-md-0">Remzi Çavdar</h2>
               <h3 class="subtitle">Software Engineer i.o.</h3>
               <p id="info">
                 <strong>Geboortedatum:</strong> 11-06-1993<br>

@@ -1,3 +1,5 @@
+<script setup lang="ts">
+</script>
 <template>
   <footer class="bg-body-tertiary text-center py-3 d-print-none">
     <div class="container">
@@ -10,7 +12,7 @@
             <path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-c0161dce=""></path>
           </svg>
         </span>
-        en de code is te vinden op <a href="https://github.com/Remzi1993/remzi.info" target="_blank" aria-label="GitHub profile of Remzi Cavdar"><i
+        en de code is te vinden op <a href="https://github.com/Remzi1993/remzi.info" target="_blank" aria-label="GitHub profile of Remzi Çavdar"><i
           class="bi bi-github"></i></a>
 
         en ik maak gebruik van:

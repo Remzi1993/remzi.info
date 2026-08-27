@@ -2,15 +2,15 @@
 import {useHead} from '@unhead/vue';
 
 useHead({
-  title: '404 pagina niet gevonden - Remzi Cavdar',
+  title: '404 pagina niet gevonden - Remzi Çavdar',
   meta: [
     {
       name: 'description',
-      content: '404 pagina niet gevonden - Remzi Cavdar'
+      content: '404 pagina niet gevonden - Remzi Çavdar'
     },
     {
       name: 'author',
-      content: 'Remzi Cavdar'
+      content: 'Remzi Çavdar'
     },
     {
       name: 'fediverse:creator',
