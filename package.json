@@ -11,15 +11,15 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "@unhead/vue": "^3.4.3",
-    "bootstrap": "^5.3.8",
+    "bootstrap": "^5.3.9",
     "bootstrap-icons": "^1.13.2",
     "vue": "^3.5.45",
-    "vue-router": "^5.5.0"
+    "vue-router": "^5.5.1"
   },
   "devDependencies": {
     "@types/bootstrap": "^5.2.11",
     "@types/node": "^26.6.6",
-    "@vitejs/plugin-vue": "^6.0.10",
+    "@vitejs/plugin-vue": "^6.0.11",
     "sass-embedded": "^1.108.2",
     "sass-loader": "^17.1.0",
     "typescript": "npm:typescript-native-bridge@6.0.3-bridge.19.tsgo.7.0.2",
